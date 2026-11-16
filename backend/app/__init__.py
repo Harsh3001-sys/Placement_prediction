@@ -32,7 +32,11 @@ def create_app(test_config=None) -> Flask:
     # CORS configuration with explicit origins (no wildcard * in production)
     allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "")
     if allowed_origins_env:
-        origins = [o.strip() for o in allowed_origins_env.split(",") if o.strip()]
+        origins = []
+        for origin in allowed_origins_env.split(","):
+            normalized = origin.strip().rstrip("/")
+            if normalized:
+                origins.append(normalized)
     else:
         origins = [
             "http://localhost:5173",
