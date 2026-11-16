@@ -14,10 +14,38 @@ import type {
   PPOModelInfoResponse,
 } from "../types/placement";
 
-const RAW_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
-const API_BASE_URL = RAW_BASE_URL.endsWith("/")
-  ? RAW_BASE_URL.slice(0, -1)
-  : RAW_BASE_URL;
+function normalizeApiBaseUrl(raw: string): string {
+  let base = (raw || "/api").trim().replace(/\/+$/, "");
+  if (!base) base = "/api";
+
+  // If a full backend origin/URL is provided without an /api path, append /api once
+  // so requests like /health resolve to /api/health (the Flask blueprint prefix).
+  try {
+    const parsed = new URL(base);
+    const path = parsed.pathname.replace(/\/+$/, "");
+    if (path === "" || path === "/") {
+      parsed.pathname = "/api";
+      base = parsed.toString().replace(/\/+$/, "");
+    } else {
+      base = `${parsed.origin}${path}`;
+    }
+  } catch {
+    // Relative base (e.g. /api) - keep as-is
+  }
+
+  return base;
+}
+
+const RAW_BASE_URL = (import.meta.env.VITE_API_BASE_URL as string | undefined) || "/api";
+export const API_BASE_URL = normalizeApiBaseUrl(RAW_BASE_URL);
+
+export function getApiBaseUrl(): string {
+  return API_BASE_URL;
+}
+
+export function isLocalBackendUrl(url: string = API_BASE_URL): boolean {
+  return /^(?:\/api$|https?:\/\/(?:127\.0\.0\.1|localhost)(?::\d+)?(?:\/|$))/i.test(url);
+}
 
 export class ApiClientError extends Error {
   status: number;
@@ -63,9 +91,11 @@ async function request<T>(endpoint: string, options: RequestInit = {}): Promise<
     if (err instanceof ApiClientError) {
       throw err;
     }
-    // Network / offline error
+    const local = isLocalBackendUrl();
     throw new ApiClientError(
-      "Unable to communicate with the prediction server. Please verify the backend API is reachable and CORS/API base URL are configured correctly.",
+      local
+        ? "Unable to communicate with the local backend API. Please verify the Flask server is running and the API base URL is configured correctly."
+        : "Unable to communicate with the backend API. The server may be unavailable or waking up (Render free services can take up to a minute). Please try again shortly and verify the configured backend URL/CORS settings.",
       0
     );
   }

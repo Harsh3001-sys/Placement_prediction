@@ -16,7 +16,7 @@ import {
   SAMPLE_PROFILES,
 } from "../schemas/formSchema";
 import type { StudentFormSchema } from "../schemas/formSchema";
-import { apiService, ApiClientError } from "../services/api";
+import { apiService, ApiClientError, getApiBaseUrl, isLocalBackendUrl } from "../services/api";
 import type { PredictionResponse, StudentFormData } from "../types/placement";
 import { ResultPanel } from "../components/ResultPanel";
 import type { ConnectionStatus } from "../hooks/useApiHealth";
@@ -126,25 +126,38 @@ export const PredictorPage: React.FC<PredictorPageProps> = ({
       </div>
 
       {/* Backend Alert if offline */}
-      {apiStatus === "disconnected" && (
-        <div className="rounded-xl border border-rose-200 bg-rose-50 p-4 text-xs text-rose-800 flex items-start justify-between gap-3 shadow-xs">
-          <div className="flex items-start gap-2.5">
-            <AlertTriangle className="h-4 w-4 text-rose-600 shrink-0 mt-0.5" />
-            <div>
-              <strong className="font-semibold block">Flask Backend Unreachable</strong>
-              <span>
-                The prediction server at <code>http://127.0.0.1:5000</code> is offline. To run inference, start the Flask backend using <code>python run.py</code> inside the <code>backend/</code> directory.
-              </span>
+      {apiStatus === "disconnected" && (() => {
+        const apiBaseUrl = getApiBaseUrl();
+        const localBackend = isLocalBackendUrl(apiBaseUrl);
+        return (
+          <div className="rounded-xl border border-rose-200 bg-rose-50 p-4 text-xs text-rose-800 flex items-start justify-between gap-3 shadow-xs">
+            <div className="flex items-start gap-2.5">
+              <AlertTriangle className="h-4 w-4 text-rose-600 shrink-0 mt-0.5" />
+              <div>
+                <strong className="font-semibold block">Prediction Backend Unreachable</strong>
+                <span>
+                  Unable to reach the configured backend API
+                  {apiBaseUrl ? (
+                    <>
+                      {" "}at <code>{apiBaseUrl}</code>
+                    </>
+                  ) : null}
+                  .{" "}
+                  {localBackend
+                    ? "Start the local Flask backend (for example, run `python run.py` in the `backend/` directory) and try again."
+                    : "The backend may be temporarily unavailable or waking up (Render free services can take up to a minute). Please wait a moment and retry."}
+                </span>
+              </div>
             </div>
+            <button
+              onClick={onRefreshHealth}
+              className="shrink-0 rounded border border-rose-300 bg-white px-2.5 py-1 text-xs font-semibold text-rose-700 hover:bg-rose-100 transition-colors"
+            >
+              Retry Connection
+            </button>
           </div>
-          <button
-            onClick={onRefreshHealth}
-            className="shrink-0 rounded border border-rose-300 bg-white px-2.5 py-1 text-xs font-semibold text-rose-700 hover:bg-rose-100 transition-colors"
-          >
-            Retry Connection
-          </button>
-        </div>
-      )}
+        );
+      })()}
 
       {/* Prediction Result Display (if available) */}
       {predictionResult && submittedData ? (
