@@ -1,0 +1,17 @@
+# Core Web Framework
+flask>=3.0.0,<4.0.0
+flask-cors>=4.0.0,<7.0.0
+
+# Production WSGI server (Render)
+gunicorn>=21.2.0,<24.0.0
+
+# Machine Learning & Data Processing
+# Trained model artifacts were serialized with scikit-learn 1.6.1; pin runtime to match.
+scikit-learn==1.6.1
+numpy>=1.26.4,<2.3
+scipy>=1.11.4,<1.16
+pandas>=2.2.2,<2.3
+joblib>=1.4.2,<2.0
+
+# Testing
+pytest>=8.0.0,<9.0

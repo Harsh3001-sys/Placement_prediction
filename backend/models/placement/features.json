@@ -1,0 +1,148 @@
+{
+  "features": [
+    "CGPA",
+    "Internships",
+    "Projects",
+    "Workshops/Certifications",
+    "AptitudeTestScore",
+    "SoftSkillsRating",
+    "ExtracurricularActivities",
+    "PlacementTraining",
+    "SSC_Marks",
+    "HSC_Marks",
+    "LeetCode_Problems_Solved",
+    "Hackathon_Wins",
+    "Publications"
+  ],
+  "n_features": 13,
+  "feature_metadata": {
+    "CGPA": {
+      "type": "float",
+      "min": 0.0,
+      "max": 10.0,
+      "training_min": 6.5,
+      "training_max": 9.1,
+      "unit": "Grade Point (0-10)",
+      "category": "academic"
+    },
+    "SSC_Marks": {
+      "type": "float",
+      "min": 0.0,
+      "max": 100.0,
+      "training_min": 55.0,
+      "training_max": 90.0,
+      "unit": "Percentage (0-100)",
+      "category": "academic"
+    },
+    "HSC_Marks": {
+      "type": "float",
+      "min": 0.0,
+      "max": 100.0,
+      "training_min": 57.0,
+      "training_max": 88.0,
+      "unit": "Percentage (0-100)",
+      "category": "academic"
+    },
+    "AptitudeTestScore": {
+      "type": "float",
+      "min": 0.0,
+      "max": 100.0,
+      "training_min": 60.0,
+      "training_max": 90.0,
+      "unit": "Score (0-100)",
+      "category": "academic"
+    },
+    "SoftSkillsRating": {
+      "type": "float",
+      "min": 0.0,
+      "max": 5.0,
+      "training_min": 3.0,
+      "training_max": 4.8,
+      "unit": "Rating (1.0-5.0)",
+      "category": "academic"
+    },
+    "Internships": {
+      "type": "int",
+      "min": 0,
+      "max": 10,
+      "training_min": 0,
+      "training_max": 2,
+      "unit": "Completed internships",
+      "category": "experience"
+    },
+    "Projects": {
+      "type": "int",
+      "min": 0,
+      "max": 15,
+      "training_min": 0,
+      "training_max": 3,
+      "unit": "Completed projects",
+      "category": "experience"
+    },
+    "Workshops/Certifications": {
+      "type": "int",
+      "min": 0,
+      "max": 15,
+      "training_min": 0,
+      "training_max": 3,
+      "unit": "Certifications earned",
+      "category": "experience"
+    },
+    "PlacementTraining": {
+      "type": "boolean_str",
+      "allowed": [
+        "Yes",
+        "No"
+      ],
+      "encoded": {
+        "Yes": 1,
+        "No": 0
+      },
+      "unit": "Attended formal training",
+      "category": "experience"
+    },
+    "ExtracurricularActivities": {
+      "type": "boolean_str",
+      "allowed": [
+        "Yes",
+        "No"
+      ],
+      "encoded": {
+        "Yes": 1,
+        "No": 0
+      },
+      "unit": "Active participant",
+      "category": "experience"
+    },
+    "LeetCode_Problems_Solved": {
+      "type": "int",
+      "min": 0,
+      "max": 500,
+      "training_min": 20,
+      "training_max": 466,
+      "synthetic": true,
+      "unit": "Solved problems count",
+      "category": "technical"
+    },
+    "Hackathon_Wins": {
+      "type": "int",
+      "min": 0,
+      "max": 5,
+      "training_min": 0,
+      "training_max": 5,
+      "synthetic": true,
+      "unit": "First/second place wins",
+      "category": "technical"
+    },
+    "Publications": {
+      "type": "int",
+      "min": 0,
+      "max": 4,
+      "training_min": 0,
+      "training_max": 3,
+      "synthetic": true,
+      "unit": "Peer-reviewed papers",
+      "category": "technical"
+    }
+  }
+}
