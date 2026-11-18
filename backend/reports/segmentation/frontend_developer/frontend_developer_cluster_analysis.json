@@ -1,0 +1,557 @@
+{
+  "role_id": "frontend_developer",
+  "role_name": "Frontend Developer",
+  "n_students": 167,
+  "overall_role_average": 57.42,
+  "overall_average_per_skill": {
+    "React": 73.41,
+    "JavaScript": 69.5,
+    "CSS": 75.83,
+    "HTML": 75.84,
+    "Problem Solving": 67.56,
+    "Communication": 54.13,
+    "REST APIs": 51.52,
+    "Teamwork": 62.88,
+    "Git and GitHub": 65.57,
+    "Data Structures and Algorithms": 47.31,
+    "Object-Oriented Programming": 40.72,
+    "DBMS": 32.64,
+    "SQL": 29.53
+  },
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Strong Problem Solving & CSS Profile",
+      "cluster_description": "Cluster 0 (Strong Problem Solving & CSS Profile) includes students whose role-relevant skill profile averages 66.5 across selected skills (+9.1 points vs overall role average 57.4). Compared with the role cohort, notable strengths appear in Problem Solving (78.74 avg, +11.2 vs role avg), CSS (86.23 avg, +10.4 vs role avg), JavaScript (78.99 avg, +9.5 vs role avg). Lower relative areas include Object-Oriented Programming (48.36 avg, +7.6 vs role avg), SQL (37.22 avg, +7.7 vs role avg), Data Structures and Algorithms (55.4 avg, +8.1 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 5 skills and below requirement in 8 skills. This group is relatively stronger in Professional Skills, Programming Languages compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 87,
+      "student_percentage": 52.1,
+      "average_skill_proficiency": 66.54,
+      "difference_from_overall_role_average": 9.12,
+      "average_proficiency_per_skill": {
+        "React": 82.46,
+        "JavaScript": 78.99,
+        "CSS": 86.23,
+        "HTML": 84.49,
+        "Problem Solving": 78.74,
+        "Communication": 63.55,
+        "REST APIs": 60.75,
+        "Teamwork": 72.18,
+        "Git and GitHub": 74.79,
+        "Data Structures and Algorithms": 55.4,
+        "Object-Oriented Programming": 48.36,
+        "DBMS": 41.83,
+        "SQL": 37.22
+      },
+      "skill_profile_vs_requirements": [
+        {
+          "skill_id": "problem_solving",
+          "skill_name": "Problem Solving",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 78.74,
+          "required_proficiency": 75.0,
+          "overall_average": 67.56,
+          "difference_from_required": 3.74,
+          "difference_from_overall": 11.17
+        },
+        {
+          "skill_id": "css",
+          "skill_name": "CSS",
+          "skill_category": "Frontend",
+          "is_core_skill": true,
+          "cluster_average": 86.23,
+          "required_proficiency": 85.0,
+          "overall_average": 75.83,
+          "difference_from_required": 1.23,
+          "difference_from_overall": 10.4
+        },
+        {
+          "skill_id": "javascript",
+          "skill_name": "JavaScript",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 78.99,
+          "required_proficiency": 85.0,
+          "overall_average": 69.5,
+          "difference_from_required": -6.01,
+          "difference_from_overall": 9.49
+        },
+        {
+          "skill_id": "communication",
+          "skill_name": "Communication",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 63.55,
+          "required_proficiency": 70.0,
+          "overall_average": 54.13,
+          "difference_from_required": -6.45,
+          "difference_from_overall": 9.42
+        },
+        {
+          "skill_id": "teamwork",
+          "skill_name": "Teamwork",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 72.18,
+          "required_proficiency": 70.0,
+          "overall_average": 62.88,
+          "difference_from_required": 2.18,
+          "difference_from_overall": 9.3
+        },
+        {
+          "skill_id": "rest_apis",
+          "skill_name": "REST APIs",
+          "skill_category": "Backend",
+          "is_core_skill": true,
+          "cluster_average": 60.75,
+          "required_proficiency": 70.0,
+          "overall_average": 51.52,
+          "difference_from_required": -9.25,
+          "difference_from_overall": 9.23
+        },
+        {
+          "skill_id": "git_github",
+          "skill_name": "Git and GitHub",
+          "skill_category": "Tools & Collaboration",
+          "is_core_skill": true,
+          "cluster_average": 74.79,
+          "required_proficiency": 75.0,
+          "overall_average": 65.57,
+          "difference_from_required": -0.21,
+          "difference_from_overall": 9.22
+        },
+        {
+          "skill_id": "dbms",
+          "skill_name": "DBMS",
+          "skill_category": "Databases",
+          "is_core_skill": false,
+          "cluster_average": 41.83,
+          "required_proficiency": 40.0,
+          "overall_average": 32.64,
+          "difference_from_required": 1.83,
+          "difference_from_overall": 9.19
+        },
+        {
+          "skill_id": "react",
+          "skill_name": "React",
+          "skill_category": "Frontend",
+          "is_core_skill": true,
+          "cluster_average": 82.46,
+          "required_proficiency": 85.0,
+          "overall_average": 73.41,
+          "difference_from_required": -2.54,
+          "difference_from_overall": 9.05
+        },
+        {
+          "skill_id": "html",
+          "skill_name": "HTML",
+          "skill_category": "Frontend",
+          "is_core_skill": true,
+          "cluster_average": 84.49,
+          "required_proficiency": 85.0,
+          "overall_average": 75.84,
+          "difference_from_required": -0.51,
+          "difference_from_overall": 8.65
+        },
+        {
+          "skill_id": "dsa",
+          "skill_name": "Data Structures and Algorithms",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 55.4,
+          "required_proficiency": 60.0,
+          "overall_average": 47.31,
+          "difference_from_required": -4.6,
+          "difference_from_overall": 8.1
+        },
+        {
+          "skill_id": "sql",
+          "skill_name": "SQL",
+          "skill_category": "Databases",
+          "is_core_skill": false,
+          "cluster_average": 37.22,
+          "required_proficiency": 35.0,
+          "overall_average": 29.53,
+          "difference_from_required": 2.22,
+          "difference_from_overall": 7.69
+        },
+        {
+          "skill_id": "oop",
+          "skill_name": "Object-Oriented Programming",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 48.36,
+          "required_proficiency": 55.0,
+          "overall_average": 40.72,
+          "difference_from_required": -6.64,
+          "difference_from_overall": 7.64
+        }
+      ],
+      "strongest_skills": [
+        {
+          "skill_name": "CSS",
+          "cluster_average": 86.23,
+          "overall_average": 75.83,
+          "difference_from_overall": 10.4
+        },
+        {
+          "skill_name": "HTML",
+          "cluster_average": 84.49,
+          "overall_average": 75.84,
+          "difference_from_overall": 8.65
+        },
+        {
+          "skill_name": "React",
+          "cluster_average": 82.46,
+          "overall_average": 73.41,
+          "difference_from_overall": 9.05
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "SQL",
+          "cluster_average": 37.22,
+          "overall_average": 29.53,
+          "difference_from_overall": 7.69
+        },
+        {
+          "skill_name": "DBMS",
+          "cluster_average": 41.83,
+          "overall_average": 32.64,
+          "difference_from_overall": 9.19
+        },
+        {
+          "skill_name": "Object-Oriented Programming",
+          "cluster_average": 48.36,
+          "overall_average": 40.72,
+          "difference_from_overall": 7.64
+        }
+      ],
+      "category_profile": [
+        {
+          "category": "Professional Skills",
+          "cluster_average": 71.49,
+          "overall_average": 61.52,
+          "required_average": 71.67,
+          "difference_from_overall": 9.97
+        },
+        {
+          "category": "Programming Languages",
+          "cluster_average": 78.99,
+          "overall_average": 69.5,
+          "required_average": 85.0,
+          "difference_from_overall": 9.49
+        },
+        {
+          "category": "Frontend",
+          "cluster_average": 84.39,
+          "overall_average": 75.03,
+          "required_average": 85.0,
+          "difference_from_overall": 9.37
+        },
+        {
+          "category": "Backend",
+          "cluster_average": 60.75,
+          "overall_average": 51.52,
+          "required_average": 70.0,
+          "difference_from_overall": 9.23
+        },
+        {
+          "category": "Tools & Collaboration",
+          "cluster_average": 74.79,
+          "overall_average": 65.57,
+          "required_average": 75.0,
+          "difference_from_overall": 9.22
+        },
+        {
+          "category": "Databases",
+          "cluster_average": 39.52,
+          "overall_average": 31.09,
+          "required_average": 37.5,
+          "difference_from_overall": 8.44
+        },
+        {
+          "category": "Computer Science Fundamentals",
+          "cluster_average": 51.88,
+          "overall_average": 44.01,
+          "required_average": 57.5,
+          "difference_from_overall": 7.87
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Developing OOP & SQL Profile",
+      "cluster_description": "Cluster 1 (Developing OOP & SQL Profile) includes students whose role-relevant skill profile averages 47.5 across selected skills (-9.9 points vs overall role average 57.4). Compared with the role cohort, notable strengths appear in Object-Oriented Programming (32.41 avg, -8.3 vs role avg), SQL (21.18 avg, -8.4 vs role avg), Data Structures and Algorithms (38.5 avg, -8.8 vs role avg). Lower relative areas include Problem Solving (55.41 avg, -12.2 vs role avg), CSS (64.53 avg, -11.3 vs role avg), JavaScript (59.19 avg, -10.3 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 0 skills and below requirement in 13 skills. This group is relatively lower in Professional Skills, Programming Languages compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 80,
+      "student_percentage": 47.9,
+      "average_skill_proficiency": 47.5,
+      "difference_from_overall_role_average": -9.92,
+      "average_proficiency_per_skill": {
+        "React": 63.56,
+        "JavaScript": 59.19,
+        "CSS": 64.53,
+        "HTML": 66.44,
+        "Problem Solving": 55.41,
+        "Communication": 43.89,
+        "REST APIs": 41.49,
+        "Teamwork": 52.76,
+        "Git and GitHub": 55.55,
+        "Data Structures and Algorithms": 38.5,
+        "Object-Oriented Programming": 32.41,
+        "DBMS": 22.65,
+        "SQL": 21.18
+      },
+      "skill_profile_vs_requirements": [
+        {
+          "skill_id": "oop",
+          "skill_name": "Object-Oriented Programming",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 32.41,
+          "required_proficiency": 55.0,
+          "overall_average": 40.72,
+          "difference_from_required": -22.59,
+          "difference_from_overall": -8.31
+        },
+        {
+          "skill_id": "sql",
+          "skill_name": "SQL",
+          "skill_category": "Databases",
+          "is_core_skill": false,
+          "cluster_average": 21.18,
+          "required_proficiency": 35.0,
+          "overall_average": 29.53,
+          "difference_from_required": -13.82,
+          "difference_from_overall": -8.36
+        },
+        {
+          "skill_id": "dsa",
+          "skill_name": "Data Structures and Algorithms",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 38.5,
+          "required_proficiency": 60.0,
+          "overall_average": 47.31,
+          "difference_from_required": -21.5,
+          "difference_from_overall": -8.81
+        },
+        {
+          "skill_id": "html",
+          "skill_name": "HTML",
+          "skill_category": "Frontend",
+          "is_core_skill": true,
+          "cluster_average": 66.44,
+          "required_proficiency": 85.0,
+          "overall_average": 75.84,
+          "difference_from_required": -18.56,
+          "difference_from_overall": -9.41
+        },
+        {
+          "skill_id": "react",
+          "skill_name": "React",
+          "skill_category": "Frontend",
+          "is_core_skill": true,
+          "cluster_average": 63.56,
+          "required_proficiency": 85.0,
+          "overall_average": 73.41,
+          "difference_from_required": -21.44,
+          "difference_from_overall": -9.84
+        },
+        {
+          "skill_id": "dbms",
+          "skill_name": "DBMS",
+          "skill_category": "Databases",
+          "is_core_skill": false,
+          "cluster_average": 22.65,
+          "required_proficiency": 40.0,
+          "overall_average": 32.64,
+          "difference_from_required": -17.35,
+          "difference_from_overall": -9.99
+        },
+        {
+          "skill_id": "git_github",
+          "skill_name": "Git and GitHub",
+          "skill_category": "Tools & Collaboration",
+          "is_core_skill": true,
+          "cluster_average": 55.55,
+          "required_proficiency": 75.0,
+          "overall_average": 65.57,
+          "difference_from_required": -19.45,
+          "difference_from_overall": -10.02
+        },
+        {
+          "skill_id": "rest_apis",
+          "skill_name": "REST APIs",
+          "skill_category": "Backend",
+          "is_core_skill": true,
+          "cluster_average": 41.49,
+          "required_proficiency": 70.0,
+          "overall_average": 51.52,
+          "difference_from_required": -28.51,
+          "difference_from_overall": -10.03
+        },
+        {
+          "skill_id": "teamwork",
+          "skill_name": "Teamwork",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 52.76,
+          "required_proficiency": 70.0,
+          "overall_average": 62.88,
+          "difference_from_required": -17.24,
+          "difference_from_overall": -10.12
+        },
+        {
+          "skill_id": "communication",
+          "skill_name": "Communication",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 43.89,
+          "required_proficiency": 70.0,
+          "overall_average": 54.13,
+          "difference_from_required": -26.11,
+          "difference_from_overall": -10.24
+        },
+        {
+          "skill_id": "javascript",
+          "skill_name": "JavaScript",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 59.19,
+          "required_proficiency": 85.0,
+          "overall_average": 69.5,
+          "difference_from_required": -25.81,
+          "difference_from_overall": -10.32
+        },
+        {
+          "skill_id": "css",
+          "skill_name": "CSS",
+          "skill_category": "Frontend",
+          "is_core_skill": true,
+          "cluster_average": 64.53,
+          "required_proficiency": 85.0,
+          "overall_average": 75.83,
+          "difference_from_required": -20.47,
+          "difference_from_overall": -11.31
+        },
+        {
+          "skill_id": "problem_solving",
+          "skill_name": "Problem Solving",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 55.41,
+          "required_proficiency": 75.0,
+          "overall_average": 67.56,
+          "difference_from_required": -19.59,
+          "difference_from_overall": -12.15
+        }
+      ],
+      "strongest_skills": [
+        {
+          "skill_name": "HTML",
+          "cluster_average": 66.44,
+          "overall_average": 75.84,
+          "difference_from_overall": -9.41
+        },
+        {
+          "skill_name": "CSS",
+          "cluster_average": 64.53,
+          "overall_average": 75.83,
+          "difference_from_overall": -11.31
+        },
+        {
+          "skill_name": "React",
+          "cluster_average": 63.56,
+          "overall_average": 73.41,
+          "difference_from_overall": -9.84
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "SQL",
+          "cluster_average": 21.18,
+          "overall_average": 29.53,
+          "difference_from_overall": -8.36
+        },
+        {
+          "skill_name": "DBMS",
+          "cluster_average": 22.65,
+          "overall_average": 32.64,
+          "difference_from_overall": -9.99
+        },
+        {
+          "skill_name": "Object-Oriented Programming",
+          "cluster_average": 32.41,
+          "overall_average": 40.72,
+          "difference_from_overall": -8.31
+        }
+      ],
+      "category_profile": [
+        {
+          "category": "Computer Science Fundamentals",
+          "cluster_average": 35.46,
+          "overall_average": 44.01,
+          "required_average": 57.5,
+          "difference_from_overall": -8.56
+        },
+        {
+          "category": "Databases",
+          "cluster_average": 21.91,
+          "overall_average": 31.09,
+          "required_average": 37.5,
+          "difference_from_overall": -9.17
+        },
+        {
+          "category": "Tools & Collaboration",
+          "cluster_average": 55.55,
+          "overall_average": 65.57,
+          "required_average": 75.0,
+          "difference_from_overall": -10.02
+        },
+        {
+          "category": "Backend",
+          "cluster_average": 41.49,
+          "overall_average": 51.52,
+          "required_average": 70.0,
+          "difference_from_overall": -10.03
+        },
+        {
+          "category": "Frontend",
+          "cluster_average": 64.84,
+          "overall_average": 75.03,
+          "required_average": 85.0,
+          "difference_from_overall": -10.19
+        },
+        {
+          "category": "Programming Languages",
+          "cluster_average": 59.19,
+          "overall_average": 69.5,
+          "required_average": 85.0,
+          "difference_from_overall": -10.32
+        },
+        {
+          "category": "Professional Skills",
+          "cluster_average": 50.69,
+          "overall_average": 61.52,
+          "required_average": 71.67,
+          "difference_from_overall": -10.84
+        }
+      ]
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Strong Problem Solving & CSS Profile",
+      "student_count": 87,
+      "student_percentage": 52.1
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Developing OOP & SQL Profile",
+      "student_count": 80,
+      "student_percentage": 47.9
+    }
+  ]
+}

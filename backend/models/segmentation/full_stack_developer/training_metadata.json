@@ -1,0 +1,287 @@
+{
+  "role_id": "full_stack_developer",
+  "role_name": "Full Stack Developer",
+  "algorithm": "KMeans",
+  "random_state": 42,
+  "n_init": 10,
+  "max_iter": 300,
+  "n_samples": 167,
+  "n_features": 15,
+  "selected_k": 2,
+  "k_range_evaluated": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "wcss": 1626.657410262874,
+      "inertia": 1626.657410262874,
+      "silhouette_score": 0.2692961706051056,
+      "davies_bouldin_score": 1.3238573638211029,
+      "calinski_harabasz_score": 89.09468360839739
+    },
+    {
+      "k": 3,
+      "wcss": 1390.7434394287664,
+      "inertia": 1390.7434394287664,
+      "silhouette_score": 0.17801787544566436,
+      "davies_bouldin_score": 1.6552403554892512,
+      "calinski_harabasz_score": 65.69798237147901
+    },
+    {
+      "k": 4,
+      "wcss": 1284.9414067341966,
+      "inertia": 1284.9414067341966,
+      "silhouette_score": 0.13150972098101793,
+      "davies_bouldin_score": 1.9981728879753167,
+      "calinski_harabasz_score": 51.589784473200815
+    },
+    {
+      "k": 5,
+      "wcss": 1223.1419136829213,
+      "inertia": 1223.1419136829213,
+      "silhouette_score": 0.12500459996119878,
+      "davies_bouldin_score": 2.104556212790958,
+      "calinski_harabasz_score": 42.444177503101926
+    },
+    {
+      "k": 6,
+      "wcss": 1169.7190452191319,
+      "inertia": 1169.7190452191319,
+      "silhouette_score": 0.10521981073232471,
+      "davies_bouldin_score": 2.1694633637000442,
+      "calinski_harabasz_score": 36.75758458381703
+    },
+    {
+      "k": 7,
+      "wcss": 1132.4359022663111,
+      "inertia": 1132.4359022663111,
+      "silhouette_score": 0.10827632939604755,
+      "davies_bouldin_score": 2.1307014701078626,
+      "calinski_harabasz_score": 32.32121941705348
+    },
+    {
+      "k": 8,
+      "wcss": 1097.1017224457594,
+      "inertia": 1097.1017224457594,
+      "silhouette_score": 0.09371821921387509,
+      "davies_bouldin_score": 2.189752216038576,
+      "calinski_harabasz_score": 29.148986897702017
+    }
+  ],
+  "selection": {
+    "strategy": "aggregate_rank_silhouette_davies_bouldin_calinski_harabasz",
+    "rationale": "Selected K=2 using aggregate rank across Silhouette (higher better), Davies-Bouldin (lower better), and Calinski-Harabasz (higher better) for K=2..8. Ties broken by higher Silhouette, then smaller K (parsimony). For selected K: Silhouette=0.2692961706051056, Davies-Bouldin=1.3238573638211029, Calinski-Harabasz=89.09468360839739, WCSS=1626.657410262874. Metric leaders in evaluated range: best Silhouette K=2, best Davies-Bouldin K=2, best Calinski-Harabasz K=2. WCSS is reported for elbow analysis; K was not chosen by a single metric.",
+    "ranks": {
+      "silhouette": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "7": 5,
+        "6": 6,
+        "8": 7
+      },
+      "davies_bouldin": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "7": 5,
+        "6": 6,
+        "8": 7
+      },
+      "calinski_harabasz": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "aggregate": {
+        "2": 3,
+        "3": 6,
+        "4": 9,
+        "5": 12,
+        "6": 17,
+        "7": 16,
+        "8": 21
+      }
+    },
+    "metric_leaders": {
+      "best_silhouette_k": 2,
+      "best_davies_bouldin_k": 2,
+      "best_calinski_harabasz_k": 2
+    }
+  },
+  "final_metrics": {
+    "k": 2,
+    "wcss": 1626.657410262874,
+    "silhouette_score": 0.2692961706051056,
+    "davies_bouldin_score": 1.3238573638211029,
+    "calinski_harabasz_score": 89.09468360839739
+  },
+  "feature_names": [
+    "JavaScript",
+    "React",
+    "REST APIs",
+    "Node.js",
+    "Data Structures and Algorithms",
+    "Express.js",
+    "SQL",
+    "CSS",
+    "Git and GitHub",
+    "HTML",
+    "DBMS",
+    "Problem Solving",
+    "MongoDB",
+    "Object-Oriented Programming",
+    "Communication"
+  ],
+  "feature_skill_ids": [
+    "javascript",
+    "react",
+    "rest_apis",
+    "nodejs",
+    "dsa",
+    "expressjs",
+    "sql",
+    "css",
+    "git_github",
+    "html",
+    "dbms",
+    "problem_solving",
+    "mongodb",
+    "oop",
+    "communication"
+  ],
+  "preprocessing": {
+    "scaler": "StandardScaler",
+    "scaler_fit": "fit_on_role_training_data_only",
+    "feature_selection": "role_relevant_skills_from_phase1_role_skill_requirements",
+    "feature_order": "phase1_role_requirement_order",
+    "numeric_validation": true,
+    "missing_value_handling": "checked; median imputation within role data if encountered (none expected in provided dataset)",
+    "duplicate_student_id_check": true,
+    "notes": "Clustering and internal evaluation metrics computed on standardized role-specific feature space. Centroid-based interpretation uses original-scale skill values."
+  },
+  "data_summary": {
+    "role_id": "full_stack_developer",
+    "role_name": "Full Stack Developer",
+    "n_samples": 167,
+    "n_features": 15,
+    "duplicate_student_ids": 0,
+    "missing_or_non_numeric_cells_imputed": 0,
+    "out_of_range_cells_clamped": 0,
+    "feature_means": {
+      "JavaScript": 67.76047904191617,
+      "React": 69.37724550898204,
+      "REST APIs": 64.05389221556887,
+      "Node.js": 64.97005988023952,
+      "Data Structures and Algorithms": 50.293413173652695,
+      "Express.js": 64.37125748502994,
+      "SQL": 49.874251497005986,
+      "CSS": 66.87425149700599,
+      "Git and GitHub": 66.35928143712574,
+      "HTML": 67.32335329341318,
+      "DBMS": 59.75449101796407,
+      "Problem Solving": 64.38922155688623,
+      "MongoDB": 61.23952095808383,
+      "Object-Oriented Programming": 44.74850299401198,
+      "Communication": 40.51497005988024
+    },
+    "feature_stds": {
+      "JavaScript": 14.861520292327477,
+      "React": 14.425367196715811,
+      "REST APIs": 14.807449769727171,
+      "Node.js": 16.281367753495346,
+      "Data Structures and Algorithms": 13.721049599892156,
+      "Express.js": 15.110566956539808,
+      "SQL": 13.868578900780296,
+      "CSS": 15.057247897942789,
+      "Git and GitHub": 18.286876141228316,
+      "HTML": 15.337039608901195,
+      "DBMS": 14.702424365592472,
+      "Problem Solving": 16.815608054552346,
+      "MongoDB": 16.241887733135837,
+      "Object-Oriented Programming": 12.069518474325594,
+      "Communication": 12.657560892746858
+    },
+    "feature_mins": {
+      "JavaScript": 36.0,
+      "React": 14.0,
+      "REST APIs": 30.0,
+      "Node.js": 23.0,
+      "Data Structures and Algorithms": 15.0,
+      "Express.js": 22.0,
+      "SQL": 13.0,
+      "CSS": 26.0,
+      "Git and GitHub": 25.0,
+      "HTML": 29.0,
+      "DBMS": 28.0,
+      "Problem Solving": 10.0,
+      "MongoDB": 14.0,
+      "Object-Oriented Programming": 11.0,
+      "Communication": 12.0
+    },
+    "feature_maxs": {
+      "JavaScript": 100.0,
+      "React": 100.0,
+      "REST APIs": 100.0,
+      "Node.js": 100.0,
+      "Data Structures and Algorithms": 84.0,
+      "Express.js": 100.0,
+      "SQL": 88.0,
+      "CSS": 100.0,
+      "Git and GitHub": 100.0,
+      "HTML": 100.0,
+      "DBMS": 98.0,
+      "Problem Solving": 100.0,
+      "MongoDB": 99.0,
+      "Object-Oriented Programming": 78.0,
+      "Communication": 70.0
+    }
+  },
+  "disclosure": "Trained on synthetic student skill profiles. Clustering metrics indicate separation/compactness on synthetic data and do not establish real-world student segmentation quality. Cluster assignment is not a placement prediction.",
+  "cluster_analysis_summary": {
+    "cluster_distribution": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Strong Git/GitHub & Node.js Profile",
+        "student_count": 92,
+        "student_percentage": 55.09
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Developing OOP & Communication Profile",
+        "student_count": 75,
+        "student_percentage": 44.91
+      }
+    ],
+    "overall_role_average": 60.13,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Strong Git/GitHub & Node.js Profile",
+        "student_count": 92,
+        "student_percentage": 55.09,
+        "average_skill_proficiency": 68.1
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Developing OOP & Communication Profile",
+        "student_count": 75,
+        "student_percentage": 44.91,
+        "average_skill_proficiency": 50.35
+      }
+    ]
+  }
+}

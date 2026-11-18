@@ -1,0 +1,275 @@
+{
+  "role_id": "frontend_developer",
+  "role_name": "Frontend Developer",
+  "algorithm": "KMeans",
+  "random_state": 42,
+  "n_init": 10,
+  "max_iter": 300,
+  "n_samples": 167,
+  "n_features": 13,
+  "selected_k": 2,
+  "k_range_evaluated": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "wcss": 1302.5120502998789,
+      "inertia": 1302.5120502998789,
+      "silhouette_score": 0.3153917094681985,
+      "davies_bouldin_score": 1.1994740344579258,
+      "calinski_harabasz_score": 110.01856886278156
+    },
+    {
+      "k": 3,
+      "wcss": 1134.607834457322,
+      "inertia": 1134.607834457322,
+      "silhouette_score": 0.18751221491497164,
+      "davies_bouldin_score": 1.6904927806147694,
+      "calinski_harabasz_score": 74.90178984631032
+    },
+    {
+      "k": 4,
+      "wcss": 1069.788596946562,
+      "inertia": 1069.788596946562,
+      "silhouette_score": 0.13215442405041297,
+      "davies_bouldin_score": 2.0204240625427543,
+      "calinski_harabasz_score": 55.92926154134253
+    },
+    {
+      "k": 5,
+      "wcss": 1017.4090500338448,
+      "inertia": 1017.4090500338448,
+      "silhouette_score": 0.1139082206222851,
+      "davies_bouldin_score": 2.1174734389882177,
+      "calinski_harabasz_score": 45.92099261558083
+    },
+    {
+      "k": 6,
+      "wcss": 966.8800577815791,
+      "inertia": 966.8800577815791,
+      "silhouette_score": 0.10491038565070698,
+      "davies_bouldin_score": 2.167036196320219,
+      "calinski_harabasz_score": 40.100798260741456
+    },
+    {
+      "k": 7,
+      "wcss": 933.8130396429018,
+      "inertia": 933.8130396429018,
+      "silhouette_score": 0.09986502896898297,
+      "davies_bouldin_score": 2.1670747344247863,
+      "calinski_harabasz_score": 35.330040249604544
+    },
+    {
+      "k": 8,
+      "wcss": 907.4294911768985,
+      "inertia": 907.4294911768985,
+      "silhouette_score": 0.09521455658083636,
+      "davies_bouldin_score": 2.293628452478477,
+      "calinski_harabasz_score": 31.62901562779183
+    }
+  ],
+  "selection": {
+    "strategy": "aggregate_rank_silhouette_davies_bouldin_calinski_harabasz",
+    "rationale": "Selected K=2 using aggregate rank across Silhouette (higher better), Davies-Bouldin (lower better), and Calinski-Harabasz (higher better) for K=2..8. Ties broken by higher Silhouette, then smaller K (parsimony). For selected K: Silhouette=0.3153917094681985, Davies-Bouldin=1.1994740344579258, Calinski-Harabasz=110.01856886278156, WCSS=1302.5120502998789. Metric leaders in evaluated range: best Silhouette K=2, best Davies-Bouldin K=2, best Calinski-Harabasz K=2. WCSS is reported for elbow analysis; K was not chosen by a single metric.",
+    "ranks": {
+      "silhouette": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "davies_bouldin": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "calinski_harabasz": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "aggregate": {
+        "2": 3,
+        "3": 6,
+        "4": 9,
+        "5": 12,
+        "6": 15,
+        "7": 18,
+        "8": 21
+      }
+    },
+    "metric_leaders": {
+      "best_silhouette_k": 2,
+      "best_davies_bouldin_k": 2,
+      "best_calinski_harabasz_k": 2
+    }
+  },
+  "final_metrics": {
+    "k": 2,
+    "wcss": 1302.5120502998789,
+    "silhouette_score": 0.3153917094681985,
+    "davies_bouldin_score": 1.1994740344579258,
+    "calinski_harabasz_score": 110.01856886278156
+  },
+  "feature_names": [
+    "React",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Problem Solving",
+    "Communication",
+    "REST APIs",
+    "Teamwork",
+    "Git and GitHub",
+    "Data Structures and Algorithms",
+    "Object-Oriented Programming",
+    "DBMS",
+    "SQL"
+  ],
+  "feature_skill_ids": [
+    "react",
+    "javascript",
+    "css",
+    "html",
+    "problem_solving",
+    "communication",
+    "rest_apis",
+    "teamwork",
+    "git_github",
+    "dsa",
+    "oop",
+    "dbms",
+    "sql"
+  ],
+  "preprocessing": {
+    "scaler": "StandardScaler",
+    "scaler_fit": "fit_on_role_training_data_only",
+    "feature_selection": "role_relevant_skills_from_phase1_role_skill_requirements",
+    "feature_order": "phase1_role_requirement_order",
+    "numeric_validation": true,
+    "missing_value_handling": "checked; median imputation within role data if encountered (none expected in provided dataset)",
+    "duplicate_student_id_check": true,
+    "notes": "Clustering and internal evaluation metrics computed on standardized role-specific feature space. Centroid-based interpretation uses original-scale skill values."
+  },
+  "data_summary": {
+    "role_id": "frontend_developer",
+    "role_name": "Frontend Developer",
+    "n_samples": 167,
+    "n_features": 13,
+    "duplicate_student_ids": 0,
+    "missing_or_non_numeric_cells_imputed": 0,
+    "out_of_range_cells_clamped": 0,
+    "feature_means": {
+      "React": 73.40718562874251,
+      "JavaScript": 69.50299401197604,
+      "CSS": 75.83233532934132,
+      "HTML": 75.8443113772455,
+      "Problem Solving": 67.562874251497,
+      "Communication": 54.131736526946106,
+      "REST APIs": 51.52095808383233,
+      "Teamwork": 62.880239520958085,
+      "Git and GitHub": 65.57485029940119,
+      "Data Structures and Algorithms": 47.30538922155689,
+      "Object-Oriented Programming": 40.7185628742515,
+      "DBMS": 32.64071856287425,
+      "SQL": 29.53293413173653
+    },
+    "feature_stds": {
+      "React": 13.740606236406933,
+      "JavaScript": 14.683435716788694,
+      "CSS": 15.280472723121012,
+      "HTML": 14.221505200032139,
+      "Problem Solving": 19.359673164392305,
+      "Communication": 15.602683209364328,
+      "REST APIs": 14.524329505525182,
+      "Teamwork": 15.553963391629116,
+      "Git and GitHub": 18.67574147358996,
+      "Data Structures and Algorithms": 13.93342277968657,
+      "Object-Oriented Programming": 13.853764151601633,
+      "DBMS": 15.054878277910761,
+      "SQL": 12.44666919402944
+    },
+    "feature_mins": {
+      "React": 39.0,
+      "JavaScript": 35.0,
+      "CSS": 36.0,
+      "HTML": 40.0,
+      "Problem Solving": 8.0,
+      "Communication": 16.0,
+      "REST APIs": 16.0,
+      "Teamwork": 25.0,
+      "Git and GitHub": 6.0,
+      "Data Structures and Algorithms": 8.0,
+      "Object-Oriented Programming": 4.0,
+      "DBMS": 0.0,
+      "SQL": 0.0
+    },
+    "feature_maxs": {
+      "React": 100.0,
+      "JavaScript": 100.0,
+      "CSS": 100.0,
+      "HTML": 100.0,
+      "Problem Solving": 100.0,
+      "Communication": 89.0,
+      "REST APIs": 83.0,
+      "Teamwork": 100.0,
+      "Git and GitHub": 100.0,
+      "Data Structures and Algorithms": 94.0,
+      "Object-Oriented Programming": 78.0,
+      "DBMS": 79.0,
+      "SQL": 57.0
+    }
+  },
+  "disclosure": "Trained on synthetic student skill profiles. Clustering metrics indicate separation/compactness on synthetic data and do not establish real-world student segmentation quality. Cluster assignment is not a placement prediction.",
+  "cluster_analysis_summary": {
+    "cluster_distribution": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Strong Problem Solving & CSS Profile",
+        "student_count": 87,
+        "student_percentage": 52.1
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Developing OOP & SQL Profile",
+        "student_count": 80,
+        "student_percentage": 47.9
+      }
+    ],
+    "overall_role_average": 57.42,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Strong Problem Solving & CSS Profile",
+        "student_count": 87,
+        "student_percentage": 52.1,
+        "average_skill_proficiency": 66.54
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Developing OOP & SQL Profile",
+        "student_count": 80,
+        "student_percentage": 47.9,
+        "average_skill_proficiency": 47.5
+      }
+    ]
+  }
+}

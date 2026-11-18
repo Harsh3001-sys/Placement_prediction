@@ -1,0 +1,275 @@
+{
+  "role_id": "software_developer",
+  "role_name": "Software Developer",
+  "algorithm": "KMeans",
+  "random_state": 42,
+  "n_init": 10,
+  "max_iter": 300,
+  "n_samples": 167,
+  "n_features": 13,
+  "selected_k": 2,
+  "k_range_evaluated": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "wcss": 1440.7118937739228,
+      "inertia": 1440.7118937739228,
+      "silhouette_score": 0.2637790619357428,
+      "davies_bouldin_score": 1.379410071985099,
+      "calinski_harabasz_score": 83.63749757882626
+    },
+    {
+      "k": 3,
+      "wcss": 1265.81560769936,
+      "inertia": 1265.81560769936,
+      "silhouette_score": 0.1673429855517507,
+      "davies_bouldin_score": 1.7426799066281393,
+      "calinski_harabasz_score": 58.638177406864024
+    },
+    {
+      "k": 4,
+      "wcss": 1181.7297070892816,
+      "inertia": 1181.7297070892816,
+      "silhouette_score": 0.1272305558281824,
+      "davies_bouldin_score": 2.1957109017551506,
+      "calinski_harabasz_score": 45.48447268358418
+    },
+    {
+      "k": 5,
+      "wcss": 1131.1570219804744,
+      "inertia": 1131.1570219804744,
+      "silhouette_score": 0.11611782025064335,
+      "davies_bouldin_score": 2.1883577249944124,
+      "calinski_harabasz_score": 37.23058761201566
+    },
+    {
+      "k": 6,
+      "wcss": 1080.19840260736,
+      "inertia": 1080.19840260736,
+      "silhouette_score": 0.11610741083814477,
+      "davies_bouldin_score": 2.1543768195874993,
+      "calinski_harabasz_score": 32.51607422419981
+    },
+    {
+      "k": 7,
+      "wcss": 1045.199791185152,
+      "inertia": 1045.199791185152,
+      "silhouette_score": 0.10518238714557862,
+      "davies_bouldin_score": 2.200347734472177,
+      "calinski_harabasz_score": 28.723062475632613
+    },
+    {
+      "k": 8,
+      "wcss": 1008.5208576263661,
+      "inertia": 1008.5208576263661,
+      "silhouette_score": 0.09344712380244614,
+      "davies_bouldin_score": 2.2285671604519166,
+      "calinski_harabasz_score": 26.181792054274947
+    }
+  ],
+  "selection": {
+    "strategy": "aggregate_rank_silhouette_davies_bouldin_calinski_harabasz",
+    "rationale": "Selected K=2 using aggregate rank across Silhouette (higher better), Davies-Bouldin (lower better), and Calinski-Harabasz (higher better) for K=2..8. Ties broken by higher Silhouette, then smaller K (parsimony). For selected K: Silhouette=0.2637790619357428, Davies-Bouldin=1.379410071985099, Calinski-Harabasz=83.63749757882626, WCSS=1440.7118937739228. Metric leaders in evaluated range: best Silhouette K=2, best Davies-Bouldin K=2, best Calinski-Harabasz K=2. WCSS is reported for elbow analysis; K was not chosen by a single metric.",
+    "ranks": {
+      "silhouette": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "davies_bouldin": {
+        "2": 1,
+        "3": 2,
+        "6": 3,
+        "5": 4,
+        "4": 5,
+        "7": 6,
+        "8": 7
+      },
+      "calinski_harabasz": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "aggregate": {
+        "2": 3,
+        "3": 6,
+        "4": 11,
+        "5": 12,
+        "6": 13,
+        "7": 18,
+        "8": 21
+      }
+    },
+    "metric_leaders": {
+      "best_silhouette_k": 2,
+      "best_davies_bouldin_k": 2,
+      "best_calinski_harabasz_k": 2
+    }
+  },
+  "final_metrics": {
+    "k": 2,
+    "wcss": 1440.7118937739228,
+    "silhouette_score": 0.2637790619357428,
+    "davies_bouldin_score": 1.379410071985099,
+    "calinski_harabasz_score": 83.63749757882626
+  },
+  "feature_names": [
+    "Data Structures and Algorithms",
+    "Object-Oriented Programming",
+    "Java",
+    "Problem Solving",
+    "Python",
+    "Git and GitHub",
+    "DBMS",
+    "SQL",
+    "Operating Systems",
+    "C++",
+    "Computer Networks",
+    "Communication",
+    "Teamwork"
+  ],
+  "feature_skill_ids": [
+    "dsa",
+    "oop",
+    "java",
+    "problem_solving",
+    "python",
+    "git_github",
+    "dbms",
+    "sql",
+    "operating_systems",
+    "cpp",
+    "computer_networks",
+    "communication",
+    "teamwork"
+  ],
+  "preprocessing": {
+    "scaler": "StandardScaler",
+    "scaler_fit": "fit_on_role_training_data_only",
+    "feature_selection": "role_relevant_skills_from_phase1_role_skill_requirements",
+    "feature_order": "phase1_role_requirement_order",
+    "numeric_validation": true,
+    "missing_value_handling": "checked; median imputation within role data if encountered (none expected in provided dataset)",
+    "duplicate_student_id_check": true,
+    "notes": "Clustering and internal evaluation metrics computed on standardized role-specific feature space. Centroid-based interpretation uses original-scale skill values."
+  },
+  "data_summary": {
+    "role_id": "software_developer",
+    "role_name": "Software Developer",
+    "n_samples": 167,
+    "n_features": 13,
+    "duplicate_student_ids": 0,
+    "missing_or_non_numeric_cells_imputed": 0,
+    "out_of_range_cells_clamped": 0,
+    "feature_means": {
+      "Data Structures and Algorithms": 69.24550898203593,
+      "Object-Oriented Programming": 62.053892215568865,
+      "Java": 69.40119760479043,
+      "Problem Solving": 75.05988023952096,
+      "Python": 50.191616766467064,
+      "Git and GitHub": 64.36526946107784,
+      "DBMS": 50.37125748502994,
+      "SQL": 44.70059880239521,
+      "Operating Systems": 51.191616766467064,
+      "C++": 58.67664670658683,
+      "Computer Networks": 47.40119760479042,
+      "Communication": 49.778443113772454,
+      "Teamwork": 60.05988023952096
+    },
+    "feature_stds": {
+      "Data Structures and Algorithms": 14.86202695126808,
+      "Object-Oriented Programming": 14.137162766206055,
+      "Java": 14.761196858570763,
+      "Problem Solving": 17.55187370750884,
+      "Python": 13.129449519742076,
+      "Git and GitHub": 18.311790410584194,
+      "DBMS": 12.599064226235821,
+      "SQL": 12.171683526980015,
+      "Operating Systems": 17.415298571433507,
+      "C++": 14.967937574111174,
+      "Computer Networks": 16.448817324662404,
+      "Communication": 13.722397966803717,
+      "Teamwork": 14.583519777044698
+    },
+    "feature_mins": {
+      "Data Structures and Algorithms": 31.0,
+      "Object-Oriented Programming": 20.0,
+      "Java": 27.0,
+      "Problem Solving": 32.0,
+      "Python": 17.0,
+      "Git and GitHub": 13.0,
+      "DBMS": 14.0,
+      "SQL": 17.0,
+      "Operating Systems": 0.0,
+      "C++": 21.0,
+      "Computer Networks": 0.0,
+      "Communication": 13.0,
+      "Teamwork": 34.0
+    },
+    "feature_maxs": {
+      "Data Structures and Algorithms": 100.0,
+      "Object-Oriented Programming": 95.0,
+      "Java": 100.0,
+      "Problem Solving": 100.0,
+      "Python": 81.0,
+      "Git and GitHub": 100.0,
+      "DBMS": 80.0,
+      "SQL": 75.0,
+      "Operating Systems": 89.0,
+      "C++": 100.0,
+      "Computer Networks": 87.0,
+      "Communication": 89.0,
+      "Teamwork": 95.0
+    }
+  },
+  "disclosure": "Trained on synthetic student skill profiles. Clustering metrics indicate separation/compactness on synthetic data and do not establish real-world student segmentation quality. Cluster assignment is not a placement prediction.",
+  "cluster_analysis_summary": {
+    "cluster_distribution": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Developing DBMS & Computer Networks Profile",
+        "student_count": 78,
+        "student_percentage": 46.71
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Strong Problem Solving & Operating Systems Profile",
+        "student_count": 89,
+        "student_percentage": 53.29
+      }
+    ],
+    "overall_role_average": 57.88,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Developing DBMS & Computer Networks Profile",
+        "student_count": 78,
+        "student_percentage": 46.71,
+        "average_skill_proficiency": 48.68
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Strong Problem Solving & Operating Systems Profile",
+        "student_count": 89,
+        "student_percentage": 53.29,
+        "average_skill_proficiency": 65.95
+      }
+    ]
+  }
+}

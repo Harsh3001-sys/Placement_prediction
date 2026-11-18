@@ -1,0 +1,582 @@
+{
+  "role_id": "backend_developer",
+  "role_name": "Backend Developer",
+  "n_students": 167,
+  "overall_role_average": 63.22,
+  "overall_average_per_skill": {
+    "DBMS": 73.21,
+    "SQL": 60.97,
+    "REST APIs": 66.29,
+    "Data Structures and Algorithms": 62.85,
+    "Node.js": 67.65,
+    "Object-Oriented Programming": 59.55,
+    "Java": 65.29,
+    "Python": 50.39,
+    "Express.js": 67.07,
+    "Git and GitHub": 64.23,
+    "MongoDB": 66.25,
+    "JavaScript": 50.18,
+    "System Design": 62.81,
+    "Problem Solving": 68.29
+  },
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Developing Python & SQL Profile",
+      "cluster_description": "Cluster 0 (Developing Python & SQL Profile) includes students whose role-relevant skill profile averages 53.1 across selected skills (-10.2 points vs overall role average 63.2). Compared with the role cohort, notable strengths appear in Python (42.46 avg, -7.9 vs role avg), SQL (52.7 avg, -8.3 vs role avg), Problem Solving (59.36 avg, -8.9 vs role avg). Lower relative areas include Node.js (54.56 avg, -13.1 vs role avg), REST APIs (54.8 avg, -11.5 vs role avg), Express.js (55.8 avg, -11.3 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 0 skills and below requirement in 14 skills. This group is relatively lower in Backend, Architecture compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 61,
+      "student_percentage": 36.53,
+      "average_skill_proficiency": 53.06,
+      "difference_from_overall_role_average": -10.16,
+      "average_proficiency_per_skill": {
+        "DBMS": 62.3,
+        "SQL": 52.7,
+        "REST APIs": 54.8,
+        "Data Structures and Algorithms": 53.72,
+        "Node.js": 54.56,
+        "Object-Oriented Programming": 48.72,
+        "Java": 55.11,
+        "Python": 42.46,
+        "Express.js": 55.8,
+        "Git and GitHub": 54.08,
+        "MongoDB": 56.28,
+        "JavaScript": 40.67,
+        "System Design": 52.23,
+        "Problem Solving": 59.36
+      },
+      "skill_profile_vs_requirements": [
+        {
+          "skill_id": "python",
+          "skill_name": "Python",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 42.46,
+          "required_proficiency": 70.0,
+          "overall_average": 50.39,
+          "difference_from_required": -27.54,
+          "difference_from_overall": -7.93
+        },
+        {
+          "skill_id": "sql",
+          "skill_name": "SQL",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 52.7,
+          "required_proficiency": 85.0,
+          "overall_average": 60.97,
+          "difference_from_required": -32.3,
+          "difference_from_overall": -8.27
+        },
+        {
+          "skill_id": "problem_solving",
+          "skill_name": "Problem Solving",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 59.36,
+          "required_proficiency": 75.0,
+          "overall_average": 68.29,
+          "difference_from_required": -15.64,
+          "difference_from_overall": -8.93
+        },
+        {
+          "skill_id": "dsa",
+          "skill_name": "Data Structures and Algorithms",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": true,
+          "cluster_average": 53.72,
+          "required_proficiency": 75.0,
+          "overall_average": 62.85,
+          "difference_from_required": -21.28,
+          "difference_from_overall": -9.13
+        },
+        {
+          "skill_id": "javascript",
+          "skill_name": "JavaScript",
+          "skill_category": "Programming Languages",
+          "is_core_skill": false,
+          "cluster_average": 40.67,
+          "required_proficiency": 60.0,
+          "overall_average": 50.18,
+          "difference_from_required": -19.33,
+          "difference_from_overall": -9.51
+        },
+        {
+          "skill_id": "mongodb",
+          "skill_name": "MongoDB",
+          "skill_category": "Databases",
+          "is_core_skill": false,
+          "cluster_average": 56.28,
+          "required_proficiency": 65.0,
+          "overall_average": 66.25,
+          "difference_from_required": -8.72,
+          "difference_from_overall": -9.97
+        },
+        {
+          "skill_id": "git_github",
+          "skill_name": "Git and GitHub",
+          "skill_category": "Tools & Collaboration",
+          "is_core_skill": true,
+          "cluster_average": 54.08,
+          "required_proficiency": 70.0,
+          "overall_average": 64.23,
+          "difference_from_required": -15.92,
+          "difference_from_overall": -10.15
+        },
+        {
+          "skill_id": "java",
+          "skill_name": "Java",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 55.11,
+          "required_proficiency": 70.0,
+          "overall_average": 65.29,
+          "difference_from_required": -14.89,
+          "difference_from_overall": -10.18
+        },
+        {
+          "skill_id": "system_design",
+          "skill_name": "System Design",
+          "skill_category": "Architecture",
+          "is_core_skill": false,
+          "cluster_average": 52.23,
+          "required_proficiency": 60.0,
+          "overall_average": 62.81,
+          "difference_from_required": -7.77,
+          "difference_from_overall": -10.58
+        },
+        {
+          "skill_id": "oop",
+          "skill_name": "Object-Oriented Programming",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": true,
+          "cluster_average": 48.72,
+          "required_proficiency": 75.0,
+          "overall_average": 59.55,
+          "difference_from_required": -26.28,
+          "difference_from_overall": -10.83
+        },
+        {
+          "skill_id": "dbms",
+          "skill_name": "DBMS",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 62.3,
+          "required_proficiency": 85.0,
+          "overall_average": 73.21,
+          "difference_from_required": -22.7,
+          "difference_from_overall": -10.91
+        },
+        {
+          "skill_id": "expressjs",
+          "skill_name": "Express.js",
+          "skill_category": "Backend",
+          "is_core_skill": false,
+          "cluster_average": 55.8,
+          "required_proficiency": 70.0,
+          "overall_average": 67.07,
+          "difference_from_required": -14.2,
+          "difference_from_overall": -11.26
+        },
+        {
+          "skill_id": "rest_apis",
+          "skill_name": "REST APIs",
+          "skill_category": "Backend",
+          "is_core_skill": true,
+          "cluster_average": 54.8,
+          "required_proficiency": 85.0,
+          "overall_average": 66.29,
+          "difference_from_required": -30.2,
+          "difference_from_overall": -11.49
+        },
+        {
+          "skill_id": "nodejs",
+          "skill_name": "Node.js",
+          "skill_category": "Backend",
+          "is_core_skill": true,
+          "cluster_average": 54.56,
+          "required_proficiency": 75.0,
+          "overall_average": 67.65,
+          "difference_from_required": -20.44,
+          "difference_from_overall": -13.1
+        }
+      ],
+      "strongest_skills": [
+        {
+          "skill_name": "DBMS",
+          "cluster_average": 62.3,
+          "overall_average": 73.21,
+          "difference_from_overall": -10.91
+        },
+        {
+          "skill_name": "Problem Solving",
+          "cluster_average": 59.36,
+          "overall_average": 68.29,
+          "difference_from_overall": -8.93
+        },
+        {
+          "skill_name": "MongoDB",
+          "cluster_average": 56.28,
+          "overall_average": 66.25,
+          "difference_from_overall": -9.97
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "JavaScript",
+          "cluster_average": 40.67,
+          "overall_average": 50.18,
+          "difference_from_overall": -9.51
+        },
+        {
+          "skill_name": "Python",
+          "cluster_average": 42.46,
+          "overall_average": 50.39,
+          "difference_from_overall": -7.93
+        },
+        {
+          "skill_name": "Object-Oriented Programming",
+          "cluster_average": 48.72,
+          "overall_average": 59.55,
+          "difference_from_overall": -10.83
+        }
+      ],
+      "category_profile": [
+        {
+          "category": "Professional Skills",
+          "cluster_average": 59.36,
+          "overall_average": 68.29,
+          "required_average": 75.0,
+          "difference_from_overall": -8.93
+        },
+        {
+          "category": "Programming Languages",
+          "cluster_average": 46.08,
+          "overall_average": 55.29,
+          "required_average": 66.67,
+          "difference_from_overall": -9.21
+        },
+        {
+          "category": "Databases",
+          "cluster_average": 57.09,
+          "overall_average": 66.81,
+          "required_average": 78.33,
+          "difference_from_overall": -9.72
+        },
+        {
+          "category": "Computer Science Fundamentals",
+          "cluster_average": 51.22,
+          "overall_average": 61.2,
+          "required_average": 75.0,
+          "difference_from_overall": -9.98
+        },
+        {
+          "category": "Tools & Collaboration",
+          "cluster_average": 54.08,
+          "overall_average": 64.23,
+          "required_average": 70.0,
+          "difference_from_overall": -10.15
+        },
+        {
+          "category": "Architecture",
+          "cluster_average": 52.23,
+          "overall_average": 62.81,
+          "required_average": 60.0,
+          "difference_from_overall": -10.58
+        },
+        {
+          "category": "Backend",
+          "cluster_average": 55.05,
+          "overall_average": 67.0,
+          "required_average": 76.67,
+          "difference_from_overall": -11.95
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Strong Node.js & REST APIs Profile",
+      "cluster_description": "Cluster 1 (Strong Node.js & REST APIs Profile) includes students whose role-relevant skill profile averages 69.1 across selected skills (+5.8 points vs overall role average 63.2). Compared with the role cohort, notable strengths appear in Node.js (75.19 avg, +7.5 vs role avg), REST APIs (72.91 avg, +6.6 vs role avg), Express.js (73.55 avg, +6.5 vs role avg). Lower relative areas include Python (54.95 avg, +4.6 vs role avg), SQL (65.73 avg, +4.8 vs role avg), Problem Solving (73.43 avg, +5.1 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 6 skills and below requirement in 8 skills. This group is relatively stronger in Backend, Architecture compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 106,
+      "student_percentage": 63.47,
+      "average_skill_proficiency": 69.06,
+      "difference_from_overall_role_average": 5.85,
+      "average_proficiency_per_skill": {
+        "DBMS": 79.49,
+        "SQL": 65.73,
+        "REST APIs": 72.91,
+        "Data Structures and Algorithms": 68.1,
+        "Node.js": 75.19,
+        "Object-Oriented Programming": 65.78,
+        "Java": 71.15,
+        "Python": 54.95,
+        "Express.js": 73.55,
+        "Git and GitHub": 70.08,
+        "MongoDB": 71.98,
+        "JavaScript": 55.65,
+        "System Design": 68.9,
+        "Problem Solving": 73.43
+      },
+      "skill_profile_vs_requirements": [
+        {
+          "skill_id": "nodejs",
+          "skill_name": "Node.js",
+          "skill_category": "Backend",
+          "is_core_skill": true,
+          "cluster_average": 75.19,
+          "required_proficiency": 75.0,
+          "overall_average": 67.65,
+          "difference_from_required": 0.19,
+          "difference_from_overall": 7.54
+        },
+        {
+          "skill_id": "rest_apis",
+          "skill_name": "REST APIs",
+          "skill_category": "Backend",
+          "is_core_skill": true,
+          "cluster_average": 72.91,
+          "required_proficiency": 85.0,
+          "overall_average": 66.29,
+          "difference_from_required": -12.09,
+          "difference_from_overall": 6.61
+        },
+        {
+          "skill_id": "expressjs",
+          "skill_name": "Express.js",
+          "skill_category": "Backend",
+          "is_core_skill": false,
+          "cluster_average": 73.55,
+          "required_proficiency": 70.0,
+          "overall_average": 67.07,
+          "difference_from_required": 3.55,
+          "difference_from_overall": 6.48
+        },
+        {
+          "skill_id": "dbms",
+          "skill_name": "DBMS",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 79.49,
+          "required_proficiency": 85.0,
+          "overall_average": 73.21,
+          "difference_from_required": -5.51,
+          "difference_from_overall": 6.28
+        },
+        {
+          "skill_id": "oop",
+          "skill_name": "Object-Oriented Programming",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": true,
+          "cluster_average": 65.78,
+          "required_proficiency": 75.0,
+          "overall_average": 59.55,
+          "difference_from_required": -9.22,
+          "difference_from_overall": 6.23
+        },
+        {
+          "skill_id": "system_design",
+          "skill_name": "System Design",
+          "skill_category": "Architecture",
+          "is_core_skill": false,
+          "cluster_average": 68.9,
+          "required_proficiency": 60.0,
+          "overall_average": 62.81,
+          "difference_from_required": 8.9,
+          "difference_from_overall": 6.09
+        },
+        {
+          "skill_id": "java",
+          "skill_name": "Java",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 71.15,
+          "required_proficiency": 70.0,
+          "overall_average": 65.29,
+          "difference_from_required": 1.15,
+          "difference_from_overall": 5.86
+        },
+        {
+          "skill_id": "git_github",
+          "skill_name": "Git and GitHub",
+          "skill_category": "Tools & Collaboration",
+          "is_core_skill": true,
+          "cluster_average": 70.08,
+          "required_proficiency": 70.0,
+          "overall_average": 64.23,
+          "difference_from_required": 0.08,
+          "difference_from_overall": 5.84
+        },
+        {
+          "skill_id": "mongodb",
+          "skill_name": "MongoDB",
+          "skill_category": "Databases",
+          "is_core_skill": false,
+          "cluster_average": 71.98,
+          "required_proficiency": 65.0,
+          "overall_average": 66.25,
+          "difference_from_required": 6.98,
+          "difference_from_overall": 5.74
+        },
+        {
+          "skill_id": "javascript",
+          "skill_name": "JavaScript",
+          "skill_category": "Programming Languages",
+          "is_core_skill": false,
+          "cluster_average": 55.65,
+          "required_proficiency": 60.0,
+          "overall_average": 50.18,
+          "difference_from_required": -4.35,
+          "difference_from_overall": 5.47
+        },
+        {
+          "skill_id": "dsa",
+          "skill_name": "Data Structures and Algorithms",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": true,
+          "cluster_average": 68.1,
+          "required_proficiency": 75.0,
+          "overall_average": 62.85,
+          "difference_from_required": -6.9,
+          "difference_from_overall": 5.25
+        },
+        {
+          "skill_id": "problem_solving",
+          "skill_name": "Problem Solving",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 73.43,
+          "required_proficiency": 75.0,
+          "overall_average": 68.29,
+          "difference_from_required": -1.57,
+          "difference_from_overall": 5.14
+        },
+        {
+          "skill_id": "sql",
+          "skill_name": "SQL",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 65.73,
+          "required_proficiency": 85.0,
+          "overall_average": 60.97,
+          "difference_from_required": -19.27,
+          "difference_from_overall": 4.76
+        },
+        {
+          "skill_id": "python",
+          "skill_name": "Python",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 54.95,
+          "required_proficiency": 70.0,
+          "overall_average": 50.39,
+          "difference_from_required": -15.05,
+          "difference_from_overall": 4.56
+        }
+      ],
+      "strongest_skills": [
+        {
+          "skill_name": "DBMS",
+          "cluster_average": 79.49,
+          "overall_average": 73.21,
+          "difference_from_overall": 6.28
+        },
+        {
+          "skill_name": "Node.js",
+          "cluster_average": 75.19,
+          "overall_average": 67.65,
+          "difference_from_overall": 7.54
+        },
+        {
+          "skill_name": "Express.js",
+          "cluster_average": 73.55,
+          "overall_average": 67.07,
+          "difference_from_overall": 6.48
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "Python",
+          "cluster_average": 54.95,
+          "overall_average": 50.39,
+          "difference_from_overall": 4.56
+        },
+        {
+          "skill_name": "JavaScript",
+          "cluster_average": 55.65,
+          "overall_average": 50.18,
+          "difference_from_overall": 5.47
+        },
+        {
+          "skill_name": "SQL",
+          "cluster_average": 65.73,
+          "overall_average": 60.97,
+          "difference_from_overall": 4.76
+        }
+      ],
+      "category_profile": [
+        {
+          "category": "Backend",
+          "cluster_average": 73.88,
+          "overall_average": 67.0,
+          "required_average": 76.67,
+          "difference_from_overall": 6.88
+        },
+        {
+          "category": "Architecture",
+          "cluster_average": 68.9,
+          "overall_average": 62.81,
+          "required_average": 60.0,
+          "difference_from_overall": 6.09
+        },
+        {
+          "category": "Tools & Collaboration",
+          "cluster_average": 70.08,
+          "overall_average": 64.23,
+          "required_average": 70.0,
+          "difference_from_overall": 5.84
+        },
+        {
+          "category": "Computer Science Fundamentals",
+          "cluster_average": 66.94,
+          "overall_average": 61.2,
+          "required_average": 75.0,
+          "difference_from_overall": 5.74
+        },
+        {
+          "category": "Databases",
+          "cluster_average": 72.4,
+          "overall_average": 66.81,
+          "required_average": 78.33,
+          "difference_from_overall": 5.59
+        },
+        {
+          "category": "Programming Languages",
+          "cluster_average": 60.58,
+          "overall_average": 55.29,
+          "required_average": 66.67,
+          "difference_from_overall": 5.3
+        },
+        {
+          "category": "Professional Skills",
+          "cluster_average": 73.43,
+          "overall_average": 68.29,
+          "required_average": 75.0,
+          "difference_from_overall": 5.14
+        }
+      ]
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Developing Python & SQL Profile",
+      "student_count": 61,
+      "student_percentage": 36.53
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Strong Node.js & REST APIs Profile",
+      "student_count": 106,
+      "student_percentage": 63.47
+    }
+  ]
+}

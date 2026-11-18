@@ -1,0 +1,82 @@
+role_id,role_name,skill_id,skill_name,required_proficiency,importance_weight,skill_category,is_core_skill
+software_developer,Software Developer,java,Java,75,0.110000,Programming Languages,true
+software_developer,Software Developer,python,Python,70,0.090000,Programming Languages,true
+software_developer,Software Developer,cpp,C++,55,0.050000,Programming Languages,false
+software_developer,Software Developer,dsa,Data Structures and Algorithms,85,0.140000,Computer Science Fundamentals,true
+software_developer,Software Developer,oop,Object-Oriented Programming,80,0.120000,Computer Science Fundamentals,true
+software_developer,Software Developer,dbms,DBMS,70,0.080000,Databases,true
+software_developer,Software Developer,sql,SQL,65,0.070000,Databases,true
+software_developer,Software Developer,computer_networks,Computer Networks,55,0.050000,Computer Science Fundamentals,false
+software_developer,Software Developer,operating_systems,Operating Systems,60,0.060000,Computer Science Fundamentals,false
+software_developer,Software Developer,git_github,Git and GitHub,75,0.080000,Tools & Collaboration,true
+software_developer,Software Developer,problem_solving,Problem Solving,85,0.100000,Professional Skills,true
+software_developer,Software Developer,communication,Communication,65,0.030000,Professional Skills,false
+software_developer,Software Developer,teamwork,Teamwork,65,0.020000,Professional Skills,false
+backend_developer,Backend Developer,java,Java,70,0.080000,Programming Languages,true
+backend_developer,Backend Developer,python,Python,70,0.080000,Programming Languages,true
+backend_developer,Backend Developer,javascript,JavaScript,60,0.050000,Programming Languages,false
+backend_developer,Backend Developer,dsa,Data Structures and Algorithms,75,0.090000,Computer Science Fundamentals,true
+backend_developer,Backend Developer,oop,Object-Oriented Programming,75,0.080000,Computer Science Fundamentals,true
+backend_developer,Backend Developer,dbms,DBMS,85,0.100000,Databases,true
+backend_developer,Backend Developer,sql,SQL,85,0.100000,Databases,true
+backend_developer,Backend Developer,nodejs,Node.js,75,0.080000,Backend,true
+backend_developer,Backend Developer,expressjs,Express.js,70,0.060000,Backend,false
+backend_developer,Backend Developer,mongodb,MongoDB,65,0.050000,Databases,false
+backend_developer,Backend Developer,rest_apis,REST APIs,85,0.090000,Backend,true
+backend_developer,Backend Developer,git_github,Git and GitHub,70,0.050000,Tools & Collaboration,true
+backend_developer,Backend Developer,system_design,System Design,60,0.050000,Architecture,false
+backend_developer,Backend Developer,problem_solving,Problem Solving,75,0.040000,Professional Skills,true
+frontend_developer,Frontend Developer,javascript,JavaScript,85,0.120000,Programming Languages,true
+frontend_developer,Frontend Developer,html,HTML,85,0.100000,Frontend,true
+frontend_developer,Frontend Developer,css,CSS,85,0.100000,Frontend,true
+frontend_developer,Frontend Developer,react,React,85,0.140000,Frontend,true
+frontend_developer,Frontend Developer,rest_apis,REST APIs,70,0.080000,Backend,true
+frontend_developer,Frontend Developer,git_github,Git and GitHub,75,0.070000,Tools & Collaboration,true
+frontend_developer,Frontend Developer,problem_solving,Problem Solving,75,0.080000,Professional Skills,true
+frontend_developer,Frontend Developer,oop,Object-Oriented Programming,55,0.040000,Computer Science Fundamentals,false
+frontend_developer,Frontend Developer,dsa,Data Structures and Algorithms,60,0.050000,Computer Science Fundamentals,false
+frontend_developer,Frontend Developer,dbms,DBMS,40,0.030000,Databases,false
+frontend_developer,Frontend Developer,sql,SQL,35,0.030000,Databases,false
+frontend_developer,Frontend Developer,communication,Communication,70,0.080000,Professional Skills,true
+frontend_developer,Frontend Developer,teamwork,Teamwork,70,0.080000,Professional Skills,true
+full_stack_developer,Full Stack Developer,javascript,JavaScript,80,0.100000,Programming Languages,true
+full_stack_developer,Full Stack Developer,html,HTML,75,0.060000,Frontend,true
+full_stack_developer,Full Stack Developer,css,CSS,75,0.060000,Frontend,true
+full_stack_developer,Full Stack Developer,react,React,80,0.100000,Frontend,true
+full_stack_developer,Full Stack Developer,nodejs,Node.js,75,0.090000,Backend,true
+full_stack_developer,Full Stack Developer,expressjs,Express.js,70,0.070000,Backend,true
+full_stack_developer,Full Stack Developer,mongodb,MongoDB,65,0.050000,Databases,false
+full_stack_developer,Full Stack Developer,sql,SQL,70,0.070000,Databases,true
+full_stack_developer,Full Stack Developer,dbms,DBMS,70,0.060000,Databases,true
+full_stack_developer,Full Stack Developer,rest_apis,REST APIs,80,0.090000,Backend,true
+full_stack_developer,Full Stack Developer,git_github,Git and GitHub,75,0.060000,Tools & Collaboration,true
+full_stack_developer,Full Stack Developer,dsa,Data Structures and Algorithms,70,0.070000,Computer Science Fundamentals,true
+full_stack_developer,Full Stack Developer,oop,Object-Oriented Programming,65,0.050000,Computer Science Fundamentals,false
+full_stack_developer,Full Stack Developer,problem_solving,Problem Solving,75,0.050000,Professional Skills,true
+full_stack_developer,Full Stack Developer,communication,Communication,60,0.020000,Professional Skills,false
+data_analyst,Data Analyst,python,Python,75,0.100000,Programming Languages,true
+data_analyst,Data Analyst,sql,SQL,85,0.140000,Databases,true
+data_analyst,Data Analyst,dbms,DBMS,70,0.070000,Databases,true
+data_analyst,Data Analyst,statistics,Statistics,80,0.120000,Data & ML,true
+data_analyst,Data Analyst,probability,Probability,70,0.080000,Data & ML,true
+data_analyst,Data Analyst,numpy,NumPy,70,0.070000,Data & ML,true
+data_analyst,Data Analyst,pandas,Pandas,85,0.120000,Data & ML,true
+data_analyst,Data Analyst,matplotlib,Matplotlib,75,0.080000,Data & ML,true
+data_analyst,Data Analyst,data_visualization,Data Visualization,80,0.100000,Data & ML,true
+data_analyst,Data Analyst,problem_solving,Problem Solving,75,0.060000,Professional Skills,true
+data_analyst,Data Analyst,communication,Communication,75,0.040000,Professional Skills,false
+data_analyst,Data Analyst,git_github,Git and GitHub,55,0.020000,Tools & Collaboration,false
+ml_engineer,Machine Learning Engineer,python,Python,85,0.110000,Programming Languages,true
+ml_engineer,Machine Learning Engineer,statistics,Statistics,85,0.100000,Data & ML,true
+ml_engineer,Machine Learning Engineer,probability,Probability,80,0.080000,Data & ML,true
+ml_engineer,Machine Learning Engineer,numpy,NumPy,80,0.080000,Data & ML,true
+ml_engineer,Machine Learning Engineer,pandas,Pandas,80,0.080000,Data & ML,true
+ml_engineer,Machine Learning Engineer,matplotlib,Matplotlib,65,0.040000,Data & ML,false
+ml_engineer,Machine Learning Engineer,scikit_learn,Scikit-learn,80,0.090000,Data & ML,true
+ml_engineer,Machine Learning Engineer,machine_learning,Machine Learning,90,0.140000,Data & ML,true
+ml_engineer,Machine Learning Engineer,deep_learning,Deep Learning,75,0.080000,Data & ML,true
+ml_engineer,Machine Learning Engineer,tensorflow,TensorFlow,65,0.050000,Data & ML,false
+ml_engineer,Machine Learning Engineer,pytorch,PyTorch,65,0.050000,Data & ML,false
+ml_engineer,Machine Learning Engineer,sql,SQL,70,0.050000,Databases,true
+ml_engineer,Machine Learning Engineer,dsa,Data Structures and Algorithms,70,0.030000,Computer Science Fundamentals,false
+ml_engineer,Machine Learning Engineer,problem_solving,Problem Solving,80,0.020000,Professional Skills,true

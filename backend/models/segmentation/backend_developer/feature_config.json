@@ -1,0 +1,36 @@
+{
+  "role_id": "backend_developer",
+  "role_name": "Backend Developer",
+  "feature_names": [
+    "DBMS",
+    "SQL",
+    "REST APIs",
+    "Data Structures and Algorithms",
+    "Node.js",
+    "Object-Oriented Programming",
+    "Java",
+    "Python",
+    "Express.js",
+    "Git and GitHub",
+    "MongoDB",
+    "JavaScript",
+    "System Design",
+    "Problem Solving"
+  ],
+  "feature_skill_ids": [
+    "dbms",
+    "sql",
+    "rest_apis",
+    "dsa",
+    "nodejs",
+    "oop",
+    "java",
+    "python",
+    "expressjs",
+    "git_github",
+    "mongodb",
+    "javascript",
+    "system_design",
+    "problem_solving"
+  ]
+}

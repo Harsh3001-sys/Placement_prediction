@@ -1,0 +1,34 @@
+{
+  "role_id": "frontend_developer",
+  "role_name": "Frontend Developer",
+  "feature_names": [
+    "React",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Problem Solving",
+    "Communication",
+    "REST APIs",
+    "Teamwork",
+    "Git and GitHub",
+    "Data Structures and Algorithms",
+    "Object-Oriented Programming",
+    "DBMS",
+    "SQL"
+  ],
+  "feature_skill_ids": [
+    "react",
+    "javascript",
+    "css",
+    "html",
+    "problem_solving",
+    "communication",
+    "rest_apis",
+    "teamwork",
+    "git_github",
+    "dsa",
+    "oop",
+    "dbms",
+    "sql"
+  ]
+}

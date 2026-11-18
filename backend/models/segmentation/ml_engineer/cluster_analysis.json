@@ -1,0 +1,554 @@
+{
+  "role_id": "ml_engineer",
+  "role_name": "Machine Learning Engineer",
+  "n_students": 166,
+  "overall_role_average": 65.73,
+  "overall_average_per_skill": {
+    "Machine Learning": 76.08,
+    "Python": 71.78,
+    "Statistics": 73.01,
+    "Scikit-learn": 72.38,
+    "NumPy": 72.4,
+    "Pandas": 63.7,
+    "Probability": 72.2,
+    "Deep Learning": 64.9,
+    "SQL": 52.2,
+    "PyTorch": 58.78,
+    "TensorFlow": 59.28,
+    "Matplotlib": 55.37,
+    "Data Structures and Algorithms": 56.56,
+    "Problem Solving": 71.53
+  },
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Strong Statistics & Matplotlib Profile",
+      "cluster_description": "Cluster 0 (Strong Statistics & Matplotlib Profile) includes students whose role-relevant skill profile averages 75.5 across selected skills (+9.7 points vs overall role average 65.7). Compared with the role cohort, notable strengths appear in Statistics (84.32 avg, +11.3 vs role avg), Matplotlib (66.38 avg, +11.0 vs role avg), Python (82.53 avg, +10.8 vs role avg). Lower relative areas include SQL (58.01 avg, +5.8 vs role avg), TensorFlow (68.03 avg, +8.7 vs role avg), Deep Learning (73.97 avg, +9.1 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 7 skills and below requirement in 7 skills. This group is relatively stronger in Programming Languages, Computer Science Fundamentals compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 79,
+      "student_percentage": 47.59,
+      "average_skill_proficiency": 75.46,
+      "difference_from_overall_role_average": 9.74,
+      "average_proficiency_per_skill": {
+        "Machine Learning": 85.61,
+        "Python": 82.53,
+        "Statistics": 84.32,
+        "Scikit-learn": 82.61,
+        "NumPy": 81.57,
+        "Pandas": 73.96,
+        "Probability": 82.59,
+        "Deep Learning": 73.97,
+        "SQL": 58.01,
+        "PyTorch": 68.84,
+        "TensorFlow": 68.03,
+        "Matplotlib": 66.38,
+        "Data Structures and Algorithms": 66.57,
+        "Problem Solving": 81.51
+      },
+      "skill_profile_vs_requirements": [
+        {
+          "skill_id": "statistics",
+          "skill_name": "Statistics",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 84.32,
+          "required_proficiency": 85.0,
+          "overall_average": 73.01,
+          "difference_from_required": -0.68,
+          "difference_from_overall": 11.3
+        },
+        {
+          "skill_id": "matplotlib",
+          "skill_name": "Matplotlib",
+          "skill_category": "Data & ML",
+          "is_core_skill": false,
+          "cluster_average": 66.38,
+          "required_proficiency": 65.0,
+          "overall_average": 55.37,
+          "difference_from_required": 1.38,
+          "difference_from_overall": 11.01
+        },
+        {
+          "skill_id": "python",
+          "skill_name": "Python",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 82.53,
+          "required_proficiency": 85.0,
+          "overall_average": 71.78,
+          "difference_from_required": -2.47,
+          "difference_from_overall": 10.75
+        },
+        {
+          "skill_id": "probability",
+          "skill_name": "Probability",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 82.59,
+          "required_proficiency": 80.0,
+          "overall_average": 72.2,
+          "difference_from_required": 2.59,
+          "difference_from_overall": 10.4
+        },
+        {
+          "skill_id": "pandas",
+          "skill_name": "Pandas",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 73.96,
+          "required_proficiency": 80.0,
+          "overall_average": 63.7,
+          "difference_from_required": -6.04,
+          "difference_from_overall": 10.26
+        },
+        {
+          "skill_id": "scikit_learn",
+          "skill_name": "Scikit-learn",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 82.61,
+          "required_proficiency": 80.0,
+          "overall_average": 72.38,
+          "difference_from_required": 2.61,
+          "difference_from_overall": 10.23
+        },
+        {
+          "skill_id": "pytorch",
+          "skill_name": "PyTorch",
+          "skill_category": "Data & ML",
+          "is_core_skill": false,
+          "cluster_average": 68.84,
+          "required_proficiency": 65.0,
+          "overall_average": 58.78,
+          "difference_from_required": 3.84,
+          "difference_from_overall": 10.06
+        },
+        {
+          "skill_id": "dsa",
+          "skill_name": "Data Structures and Algorithms",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 66.57,
+          "required_proficiency": 70.0,
+          "overall_average": 56.56,
+          "difference_from_required": -3.43,
+          "difference_from_overall": 10.01
+        },
+        {
+          "skill_id": "problem_solving",
+          "skill_name": "Problem Solving",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 81.51,
+          "required_proficiency": 80.0,
+          "overall_average": 71.53,
+          "difference_from_required": 1.51,
+          "difference_from_overall": 9.98
+        },
+        {
+          "skill_id": "machine_learning",
+          "skill_name": "Machine Learning",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 85.61,
+          "required_proficiency": 90.0,
+          "overall_average": 76.08,
+          "difference_from_required": -4.39,
+          "difference_from_overall": 9.52
+        },
+        {
+          "skill_id": "numpy",
+          "skill_name": "NumPy",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 81.57,
+          "required_proficiency": 80.0,
+          "overall_average": 72.4,
+          "difference_from_required": 1.57,
+          "difference_from_overall": 9.17
+        },
+        {
+          "skill_id": "deep_learning",
+          "skill_name": "Deep Learning",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 73.97,
+          "required_proficiency": 75.0,
+          "overall_average": 64.9,
+          "difference_from_required": -1.03,
+          "difference_from_overall": 9.08
+        },
+        {
+          "skill_id": "tensorflow",
+          "skill_name": "TensorFlow",
+          "skill_category": "Data & ML",
+          "is_core_skill": false,
+          "cluster_average": 68.03,
+          "required_proficiency": 65.0,
+          "overall_average": 59.28,
+          "difference_from_required": 3.03,
+          "difference_from_overall": 8.74
+        },
+        {
+          "skill_id": "sql",
+          "skill_name": "SQL",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 58.01,
+          "required_proficiency": 70.0,
+          "overall_average": 52.2,
+          "difference_from_required": -11.99,
+          "difference_from_overall": 5.81
+        }
+      ],
+      "strongest_skills": [
+        {
+          "skill_name": "Machine Learning",
+          "cluster_average": 85.61,
+          "overall_average": 76.08,
+          "difference_from_overall": 9.52
+        },
+        {
+          "skill_name": "Statistics",
+          "cluster_average": 84.32,
+          "overall_average": 73.01,
+          "difference_from_overall": 11.3
+        },
+        {
+          "skill_name": "Scikit-learn",
+          "cluster_average": 82.61,
+          "overall_average": 72.38,
+          "difference_from_overall": 10.23
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "SQL",
+          "cluster_average": 58.01,
+          "overall_average": 52.2,
+          "difference_from_overall": 5.81
+        },
+        {
+          "skill_name": "Matplotlib",
+          "cluster_average": 66.38,
+          "overall_average": 55.37,
+          "difference_from_overall": 11.01
+        },
+        {
+          "skill_name": "Data Structures and Algorithms",
+          "cluster_average": 66.57,
+          "overall_average": 56.56,
+          "difference_from_overall": 10.01
+        }
+      ],
+      "category_profile": [
+        {
+          "category": "Programming Languages",
+          "cluster_average": 82.53,
+          "overall_average": 71.78,
+          "required_average": 85.0,
+          "difference_from_overall": 10.75
+        },
+        {
+          "category": "Computer Science Fundamentals",
+          "cluster_average": 66.57,
+          "overall_average": 56.56,
+          "required_average": 70.0,
+          "difference_from_overall": 10.01
+        },
+        {
+          "category": "Data & ML",
+          "cluster_average": 76.79,
+          "overall_average": 66.81,
+          "required_average": 76.5,
+          "difference_from_overall": 9.98
+        },
+        {
+          "category": "Professional Skills",
+          "cluster_average": 81.51,
+          "overall_average": 71.53,
+          "required_average": 80.0,
+          "difference_from_overall": 9.98
+        },
+        {
+          "category": "Databases",
+          "cluster_average": 58.01,
+          "overall_average": 52.2,
+          "required_average": 70.0,
+          "difference_from_overall": 5.81
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Developing SQL & TensorFlow Profile",
+      "cluster_description": "Cluster 1 (Developing SQL & TensorFlow Profile) includes students whose role-relevant skill profile averages 56.9 across selected skills (-8.8 points vs overall role average 65.7). Compared with the role cohort, notable strengths appear in SQL (46.92 avg, -5.3 vs role avg), TensorFlow (51.34 avg, -7.9 vs role avg), Deep Learning (56.66 avg, -8.2 vs role avg). Lower relative areas include Statistics (62.75 avg, -10.3 vs role avg), Matplotlib (45.38 avg, -10.0 vs role avg), Python (62.01 avg, -9.8 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 0 skills and below requirement in 14 skills. This group is relatively lower in Programming Languages, Computer Science Fundamentals compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 87,
+      "student_percentage": 52.41,
+      "average_skill_proficiency": 56.89,
+      "difference_from_overall_role_average": -8.84,
+      "average_proficiency_per_skill": {
+        "Machine Learning": 67.44,
+        "Python": 62.01,
+        "Statistics": 62.75,
+        "Scikit-learn": 63.09,
+        "NumPy": 64.08,
+        "Pandas": 54.39,
+        "Probability": 62.76,
+        "Deep Learning": 56.66,
+        "SQL": 46.92,
+        "PyTorch": 49.64,
+        "TensorFlow": 51.34,
+        "Matplotlib": 45.38,
+        "Data Structures and Algorithms": 47.47,
+        "Problem Solving": 62.47
+      },
+      "skill_profile_vs_requirements": [
+        {
+          "skill_id": "sql",
+          "skill_name": "SQL",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 46.92,
+          "required_proficiency": 70.0,
+          "overall_average": 52.2,
+          "difference_from_required": -23.08,
+          "difference_from_overall": -5.28
+        },
+        {
+          "skill_id": "tensorflow",
+          "skill_name": "TensorFlow",
+          "skill_category": "Data & ML",
+          "is_core_skill": false,
+          "cluster_average": 51.34,
+          "required_proficiency": 65.0,
+          "overall_average": 59.28,
+          "difference_from_required": -13.66,
+          "difference_from_overall": -7.94
+        },
+        {
+          "skill_id": "deep_learning",
+          "skill_name": "Deep Learning",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 56.66,
+          "required_proficiency": 75.0,
+          "overall_average": 64.9,
+          "difference_from_required": -18.34,
+          "difference_from_overall": -8.24
+        },
+        {
+          "skill_id": "numpy",
+          "skill_name": "NumPy",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 64.08,
+          "required_proficiency": 80.0,
+          "overall_average": 72.4,
+          "difference_from_required": -15.92,
+          "difference_from_overall": -8.32
+        },
+        {
+          "skill_id": "machine_learning",
+          "skill_name": "Machine Learning",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 67.44,
+          "required_proficiency": 90.0,
+          "overall_average": 76.08,
+          "difference_from_required": -22.56,
+          "difference_from_overall": -8.65
+        },
+        {
+          "skill_id": "problem_solving",
+          "skill_name": "Problem Solving",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 62.47,
+          "required_proficiency": 80.0,
+          "overall_average": 71.53,
+          "difference_from_required": -17.53,
+          "difference_from_overall": -9.06
+        },
+        {
+          "skill_id": "dsa",
+          "skill_name": "Data Structures and Algorithms",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 47.47,
+          "required_proficiency": 70.0,
+          "overall_average": 56.56,
+          "difference_from_required": -22.53,
+          "difference_from_overall": -9.09
+        },
+        {
+          "skill_id": "pytorch",
+          "skill_name": "PyTorch",
+          "skill_category": "Data & ML",
+          "is_core_skill": false,
+          "cluster_average": 49.64,
+          "required_proficiency": 65.0,
+          "overall_average": 58.78,
+          "difference_from_required": -15.36,
+          "difference_from_overall": -9.13
+        },
+        {
+          "skill_id": "scikit_learn",
+          "skill_name": "Scikit-learn",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 63.09,
+          "required_proficiency": 80.0,
+          "overall_average": 72.38,
+          "difference_from_required": -16.91,
+          "difference_from_overall": -9.29
+        },
+        {
+          "skill_id": "pandas",
+          "skill_name": "Pandas",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 54.39,
+          "required_proficiency": 80.0,
+          "overall_average": 63.7,
+          "difference_from_required": -25.61,
+          "difference_from_overall": -9.31
+        },
+        {
+          "skill_id": "probability",
+          "skill_name": "Probability",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 62.76,
+          "required_proficiency": 80.0,
+          "overall_average": 72.2,
+          "difference_from_required": -17.24,
+          "difference_from_overall": -9.44
+        },
+        {
+          "skill_id": "python",
+          "skill_name": "Python",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 62.01,
+          "required_proficiency": 85.0,
+          "overall_average": 71.78,
+          "difference_from_required": -22.99,
+          "difference_from_overall": -9.77
+        },
+        {
+          "skill_id": "matplotlib",
+          "skill_name": "Matplotlib",
+          "skill_category": "Data & ML",
+          "is_core_skill": false,
+          "cluster_average": 45.38,
+          "required_proficiency": 65.0,
+          "overall_average": 55.37,
+          "difference_from_required": -19.62,
+          "difference_from_overall": -9.99
+        },
+        {
+          "skill_id": "statistics",
+          "skill_name": "Statistics",
+          "skill_category": "Data & ML",
+          "is_core_skill": true,
+          "cluster_average": 62.75,
+          "required_proficiency": 85.0,
+          "overall_average": 73.01,
+          "difference_from_required": -22.25,
+          "difference_from_overall": -10.26
+        }
+      ],
+      "strongest_skills": [
+        {
+          "skill_name": "Machine Learning",
+          "cluster_average": 67.44,
+          "overall_average": 76.08,
+          "difference_from_overall": -8.65
+        },
+        {
+          "skill_name": "NumPy",
+          "cluster_average": 64.08,
+          "overall_average": 72.4,
+          "difference_from_overall": -8.32
+        },
+        {
+          "skill_name": "Scikit-learn",
+          "cluster_average": 63.09,
+          "overall_average": 72.38,
+          "difference_from_overall": -9.29
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "Matplotlib",
+          "cluster_average": 45.38,
+          "overall_average": 55.37,
+          "difference_from_overall": -9.99
+        },
+        {
+          "skill_name": "SQL",
+          "cluster_average": 46.92,
+          "overall_average": 52.2,
+          "difference_from_overall": -5.28
+        },
+        {
+          "skill_name": "Data Structures and Algorithms",
+          "cluster_average": 47.47,
+          "overall_average": 56.56,
+          "difference_from_overall": -9.09
+        }
+      ],
+      "category_profile": [
+        {
+          "category": "Databases",
+          "cluster_average": 46.92,
+          "overall_average": 52.2,
+          "required_average": 70.0,
+          "difference_from_overall": -5.28
+        },
+        {
+          "category": "Data & ML",
+          "cluster_average": 57.75,
+          "overall_average": 66.81,
+          "required_average": 76.5,
+          "difference_from_overall": -9.06
+        },
+        {
+          "category": "Professional Skills",
+          "cluster_average": 62.47,
+          "overall_average": 71.53,
+          "required_average": 80.0,
+          "difference_from_overall": -9.06
+        },
+        {
+          "category": "Computer Science Fundamentals",
+          "cluster_average": 47.47,
+          "overall_average": 56.56,
+          "required_average": 70.0,
+          "difference_from_overall": -9.09
+        },
+        {
+          "category": "Programming Languages",
+          "cluster_average": 62.01,
+          "overall_average": 71.78,
+          "required_average": 85.0,
+          "difference_from_overall": -9.77
+        }
+      ]
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Strong Statistics & Matplotlib Profile",
+      "student_count": 79,
+      "student_percentage": 47.59
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Developing SQL & TensorFlow Profile",
+      "student_count": 87,
+      "student_percentage": 52.41
+    }
+  ]
+}

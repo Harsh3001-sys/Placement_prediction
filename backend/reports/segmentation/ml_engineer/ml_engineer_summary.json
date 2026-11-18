@@ -1,0 +1,270 @@
+{
+  "role_id": "ml_engineer",
+  "role_name": "Machine Learning Engineer",
+  "status": "trained",
+  "n_students": 166,
+  "n_features": 14,
+  "feature_names": [
+    "Machine Learning",
+    "Python",
+    "Statistics",
+    "Scikit-learn",
+    "NumPy",
+    "Pandas",
+    "Probability",
+    "Deep Learning",
+    "SQL",
+    "PyTorch",
+    "TensorFlow",
+    "Matplotlib",
+    "Data Structures and Algorithms",
+    "Problem Solving"
+  ],
+  "selected_k": 2,
+  "final_metrics": {
+    "k": 2,
+    "wcss": 1407.502700095812,
+    "silhouette_score": 0.2994616009321471,
+    "davies_bouldin_score": 1.2095553147087714,
+    "calinski_harabasz_score": 106.7888233351561
+  },
+  "selection": {
+    "strategy": "aggregate_rank_silhouette_davies_bouldin_calinski_harabasz",
+    "rationale": "Selected K=2 using aggregate rank across Silhouette (higher better), Davies-Bouldin (lower better), and Calinski-Harabasz (higher better) for K=2..8. Ties broken by higher Silhouette, then smaller K (parsimony). For selected K: Silhouette=0.2994616009321471, Davies-Bouldin=1.2095553147087714, Calinski-Harabasz=106.7888233351561, WCSS=1407.502700095812. Metric leaders in evaluated range: best Silhouette K=2, best Davies-Bouldin K=2, best Calinski-Harabasz K=2. WCSS is reported for elbow analysis; K was not chosen by a single metric.",
+    "ranks": {
+      "silhouette": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "davies_bouldin": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "calinski_harabasz": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "aggregate": {
+        "2": 3,
+        "3": 6,
+        "4": 9,
+        "5": 12,
+        "6": 15,
+        "7": 18,
+        "8": 21
+      }
+    },
+    "metric_leaders": {
+      "best_silhouette_k": 2,
+      "best_davies_bouldin_k": 2,
+      "best_calinski_harabasz_k": 2
+    }
+  },
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "wcss": 1407.502700095812,
+      "inertia": 1407.502700095812,
+      "silhouette_score": 0.2994616009321471,
+      "davies_bouldin_score": 1.2095553147087714,
+      "calinski_harabasz_score": 106.7888233351561
+    },
+    {
+      "k": 3,
+      "wcss": 1135.169579897209,
+      "inertia": 1135.169579897209,
+      "silhouette_score": 0.22385357753261312,
+      "davies_bouldin_score": 1.4249070642826835,
+      "calinski_harabasz_score": 85.35260365869823
+    },
+    {
+      "k": 4,
+      "wcss": 1046.0681850048154,
+      "inertia": 1046.0681850048154,
+      "silhouette_score": 0.15886865127656633,
+      "davies_bouldin_score": 1.962324118642433,
+      "calinski_harabasz_score": 65.96923508329651
+    },
+    {
+      "k": 5,
+      "wcss": 998.8970735687097,
+      "inertia": 998.8970735687097,
+      "silhouette_score": 0.13301453974556487,
+      "davies_bouldin_score": 2.0152631236029577,
+      "calinski_harabasz_score": 53.394282754589256
+    },
+    {
+      "k": 6,
+      "wcss": 958.6907711554401,
+      "inertia": 958.6907711554401,
+      "silhouette_score": 0.12405153571138997,
+      "davies_bouldin_score": 2.1288786292078026,
+      "calinski_harabasz_score": 45.57245843763541
+    },
+    {
+      "k": 7,
+      "wcss": 925.0610424743645,
+      "inertia": 925.0610424743645,
+      "silhouette_score": 0.10646685370164267,
+      "davies_bouldin_score": 2.17055945286457,
+      "calinski_harabasz_score": 40.07506604674326
+    },
+    {
+      "k": 8,
+      "wcss": 894.4158839465667,
+      "inertia": 894.4158839465667,
+      "silhouette_score": 0.09683964190660016,
+      "davies_bouldin_score": 2.2421859916167146,
+      "calinski_harabasz_score": 36.07690375529671
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Strong Statistics & Matplotlib Profile",
+      "student_count": 79,
+      "student_percentage": 47.59
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Developing SQL & TensorFlow Profile",
+      "student_count": 87,
+      "student_percentage": 52.41
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Strong Statistics & Matplotlib Profile",
+      "cluster_description": "Cluster 0 (Strong Statistics & Matplotlib Profile) includes students whose role-relevant skill profile averages 75.5 across selected skills (+9.7 points vs overall role average 65.7). Compared with the role cohort, notable strengths appear in Statistics (84.32 avg, +11.3 vs role avg), Matplotlib (66.38 avg, +11.0 vs role avg), Python (82.53 avg, +10.8 vs role avg). Lower relative areas include SQL (58.01 avg, +5.8 vs role avg), TensorFlow (68.03 avg, +8.7 vs role avg), Deep Learning (73.97 avg, +9.1 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 7 skills and below requirement in 7 skills. This group is relatively stronger in Programming Languages, Computer Science Fundamentals compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 79,
+      "student_percentage": 47.59,
+      "average_skill_proficiency": 75.46,
+      "strongest_skills": [
+        {
+          "skill_name": "Machine Learning",
+          "cluster_average": 85.61,
+          "overall_average": 76.08,
+          "difference_from_overall": 9.52
+        },
+        {
+          "skill_name": "Statistics",
+          "cluster_average": 84.32,
+          "overall_average": 73.01,
+          "difference_from_overall": 11.3
+        },
+        {
+          "skill_name": "Scikit-learn",
+          "cluster_average": 82.61,
+          "overall_average": 72.38,
+          "difference_from_overall": 10.23
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "SQL",
+          "cluster_average": 58.01,
+          "overall_average": 52.2,
+          "difference_from_overall": 5.81
+        },
+        {
+          "skill_name": "Matplotlib",
+          "cluster_average": 66.38,
+          "overall_average": 55.37,
+          "difference_from_overall": 11.01
+        },
+        {
+          "skill_name": "Data Structures and Algorithms",
+          "cluster_average": 66.57,
+          "overall_average": 56.56,
+          "difference_from_overall": 10.01
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Developing SQL & TensorFlow Profile",
+      "cluster_description": "Cluster 1 (Developing SQL & TensorFlow Profile) includes students whose role-relevant skill profile averages 56.9 across selected skills (-8.8 points vs overall role average 65.7). Compared with the role cohort, notable strengths appear in SQL (46.92 avg, -5.3 vs role avg), TensorFlow (51.34 avg, -7.9 vs role avg), Deep Learning (56.66 avg, -8.2 vs role avg). Lower relative areas include Statistics (62.75 avg, -10.3 vs role avg), Matplotlib (45.38 avg, -10.0 vs role avg), Python (62.01 avg, -9.8 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 0 skills and below requirement in 14 skills. This group is relatively lower in Programming Languages, Computer Science Fundamentals compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 87,
+      "student_percentage": 52.41,
+      "average_skill_proficiency": 56.89,
+      "strongest_skills": [
+        {
+          "skill_name": "Machine Learning",
+          "cluster_average": 67.44,
+          "overall_average": 76.08,
+          "difference_from_overall": -8.65
+        },
+        {
+          "skill_name": "NumPy",
+          "cluster_average": 64.08,
+          "overall_average": 72.4,
+          "difference_from_overall": -8.32
+        },
+        {
+          "skill_name": "Scikit-learn",
+          "cluster_average": 63.09,
+          "overall_average": 72.38,
+          "difference_from_overall": -9.29
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "Matplotlib",
+          "cluster_average": 45.38,
+          "overall_average": 55.37,
+          "difference_from_overall": -9.99
+        },
+        {
+          "skill_name": "SQL",
+          "cluster_average": 46.92,
+          "overall_average": 52.2,
+          "difference_from_overall": -5.28
+        },
+        {
+          "skill_name": "Data Structures and Algorithms",
+          "cluster_average": 47.47,
+          "overall_average": 56.56,
+          "difference_from_overall": -9.09
+        }
+      ]
+    }
+  ],
+  "artifacts": {
+    "role_id": "ml_engineer",
+    "model_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\ml_engineer\\kmeans_model.joblib",
+    "scaler_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\ml_engineer\\scaler.joblib",
+    "feature_config_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\ml_engineer\\feature_config.json",
+    "metadata_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\ml_engineer\\training_metadata.json",
+    "cluster_analysis_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\ml_engineer\\cluster_analysis.json"
+  },
+  "reports": {
+    "metrics_csv": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_k_evaluation_metrics.csv",
+    "metadata_json": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_training_metadata.json",
+    "cluster_analysis_json": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_cluster_analysis.json",
+    "plots": {
+      "wcss": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_elbow_wcss.png",
+      "silhouette_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_silhouette_by_k.png",
+      "davies_bouldin_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_davies_bouldin_by_k.png",
+      "calinski_harabasz_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_calinski_harabasz_by_k.png",
+      "cluster_distribution": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_cluster_distribution.png",
+      "cluster_profiles": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_cluster_profiles.png",
+      "pca_clusters": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\ml_engineer\\ml_engineer_pca_clusters.png"
+    }
+  }
+}

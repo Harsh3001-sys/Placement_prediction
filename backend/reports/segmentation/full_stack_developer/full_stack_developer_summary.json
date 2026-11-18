@@ -1,0 +1,271 @@
+{
+  "role_id": "full_stack_developer",
+  "role_name": "Full Stack Developer",
+  "status": "trained",
+  "n_students": 167,
+  "n_features": 15,
+  "feature_names": [
+    "JavaScript",
+    "React",
+    "REST APIs",
+    "Node.js",
+    "Data Structures and Algorithms",
+    "Express.js",
+    "SQL",
+    "CSS",
+    "Git and GitHub",
+    "HTML",
+    "DBMS",
+    "Problem Solving",
+    "MongoDB",
+    "Object-Oriented Programming",
+    "Communication"
+  ],
+  "selected_k": 2,
+  "final_metrics": {
+    "k": 2,
+    "wcss": 1626.657410262874,
+    "silhouette_score": 0.2692961706051056,
+    "davies_bouldin_score": 1.3238573638211029,
+    "calinski_harabasz_score": 89.09468360839739
+  },
+  "selection": {
+    "strategy": "aggregate_rank_silhouette_davies_bouldin_calinski_harabasz",
+    "rationale": "Selected K=2 using aggregate rank across Silhouette (higher better), Davies-Bouldin (lower better), and Calinski-Harabasz (higher better) for K=2..8. Ties broken by higher Silhouette, then smaller K (parsimony). For selected K: Silhouette=0.2692961706051056, Davies-Bouldin=1.3238573638211029, Calinski-Harabasz=89.09468360839739, WCSS=1626.657410262874. Metric leaders in evaluated range: best Silhouette K=2, best Davies-Bouldin K=2, best Calinski-Harabasz K=2. WCSS is reported for elbow analysis; K was not chosen by a single metric.",
+    "ranks": {
+      "silhouette": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "7": 5,
+        "6": 6,
+        "8": 7
+      },
+      "davies_bouldin": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "7": 5,
+        "6": 6,
+        "8": 7
+      },
+      "calinski_harabasz": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "aggregate": {
+        "2": 3,
+        "3": 6,
+        "4": 9,
+        "5": 12,
+        "6": 17,
+        "7": 16,
+        "8": 21
+      }
+    },
+    "metric_leaders": {
+      "best_silhouette_k": 2,
+      "best_davies_bouldin_k": 2,
+      "best_calinski_harabasz_k": 2
+    }
+  },
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "wcss": 1626.657410262874,
+      "inertia": 1626.657410262874,
+      "silhouette_score": 0.2692961706051056,
+      "davies_bouldin_score": 1.3238573638211029,
+      "calinski_harabasz_score": 89.09468360839739
+    },
+    {
+      "k": 3,
+      "wcss": 1390.7434394287664,
+      "inertia": 1390.7434394287664,
+      "silhouette_score": 0.17801787544566436,
+      "davies_bouldin_score": 1.6552403554892512,
+      "calinski_harabasz_score": 65.69798237147901
+    },
+    {
+      "k": 4,
+      "wcss": 1284.9414067341966,
+      "inertia": 1284.9414067341966,
+      "silhouette_score": 0.13150972098101793,
+      "davies_bouldin_score": 1.9981728879753167,
+      "calinski_harabasz_score": 51.589784473200815
+    },
+    {
+      "k": 5,
+      "wcss": 1223.1419136829213,
+      "inertia": 1223.1419136829213,
+      "silhouette_score": 0.12500459996119878,
+      "davies_bouldin_score": 2.104556212790958,
+      "calinski_harabasz_score": 42.444177503101926
+    },
+    {
+      "k": 6,
+      "wcss": 1169.7190452191319,
+      "inertia": 1169.7190452191319,
+      "silhouette_score": 0.10521981073232471,
+      "davies_bouldin_score": 2.1694633637000442,
+      "calinski_harabasz_score": 36.75758458381703
+    },
+    {
+      "k": 7,
+      "wcss": 1132.4359022663111,
+      "inertia": 1132.4359022663111,
+      "silhouette_score": 0.10827632939604755,
+      "davies_bouldin_score": 2.1307014701078626,
+      "calinski_harabasz_score": 32.32121941705348
+    },
+    {
+      "k": 8,
+      "wcss": 1097.1017224457594,
+      "inertia": 1097.1017224457594,
+      "silhouette_score": 0.09371821921387509,
+      "davies_bouldin_score": 2.189752216038576,
+      "calinski_harabasz_score": 29.148986897702017
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Strong Git/GitHub & Node.js Profile",
+      "student_count": 92,
+      "student_percentage": 55.09
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Developing OOP & Communication Profile",
+      "student_count": 75,
+      "student_percentage": 44.91
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Strong Git/GitHub & Node.js Profile",
+      "cluster_description": "Cluster 0 (Strong Git/GitHub & Node.js Profile) includes students whose role-relevant skill profile averages 68.1 across selected skills (+8.0 points vs overall role average 60.1). Compared with the role cohort, notable strengths appear in Git and GitHub (76.23 avg, +9.9 vs role avg), Node.js (74.46 avg, +9.5 vs role avg), HTML (76.52 avg, +9.2 vs role avg). Lower relative areas include Object-Oriented Programming (48.79 avg, +4.0 vs role avg), Communication (45.67 avg, +5.2 vs role avg), SQL (56.38 avg, +6.5 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 5 skills and below requirement in 10 skills. This group is relatively stronger in Tools & Collaboration, Programming Languages compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 92,
+      "student_percentage": 55.09,
+      "average_skill_proficiency": 68.1,
+      "strongest_skills": [
+        {
+          "skill_name": "React",
+          "cluster_average": 77.78,
+          "overall_average": 69.38,
+          "difference_from_overall": 8.41
+        },
+        {
+          "skill_name": "JavaScript",
+          "cluster_average": 76.89,
+          "overall_average": 67.76,
+          "difference_from_overall": 9.13
+        },
+        {
+          "skill_name": "HTML",
+          "cluster_average": 76.52,
+          "overall_average": 67.32,
+          "difference_from_overall": 9.2
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "Communication",
+          "cluster_average": 45.67,
+          "overall_average": 40.51,
+          "difference_from_overall": 5.16
+        },
+        {
+          "skill_name": "Object-Oriented Programming",
+          "cluster_average": 48.79,
+          "overall_average": 44.75,
+          "difference_from_overall": 4.04
+        },
+        {
+          "skill_name": "SQL",
+          "cluster_average": 56.38,
+          "overall_average": 49.87,
+          "difference_from_overall": 6.51
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Developing OOP & Communication Profile",
+      "cluster_description": "Cluster 1 (Developing OOP & Communication Profile) includes students whose role-relevant skill profile averages 50.3 across selected skills (-9.8 points vs overall role average 60.1). Compared with the role cohort, notable strengths appear in Object-Oriented Programming (39.79 avg, -5.0 vs role avg), Communication (34.19 avg, -6.3 vs role avg), SQL (41.89 avg, -8.0 vs role avg). Lower relative areas include Git and GitHub (54.25 avg, -12.1 vs role avg), Node.js (53.33 avg, -11.6 vs role avg), HTML (56.04 avg, -11.3 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 0 skills and below requirement in 15 skills. This group is relatively lower in Tools & Collaboration, Programming Languages compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 75,
+      "student_percentage": 44.91,
+      "average_skill_proficiency": 50.35,
+      "strongest_skills": [
+        {
+          "skill_name": "React",
+          "cluster_average": 59.07,
+          "overall_average": 69.38,
+          "difference_from_overall": -10.31
+        },
+        {
+          "skill_name": "JavaScript",
+          "cluster_average": 56.56,
+          "overall_average": 67.76,
+          "difference_from_overall": -11.2
+        },
+        {
+          "skill_name": "CSS",
+          "cluster_average": 56.41,
+          "overall_average": 66.87,
+          "difference_from_overall": -10.46
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "Communication",
+          "cluster_average": 34.19,
+          "overall_average": 40.51,
+          "difference_from_overall": -6.33
+        },
+        {
+          "skill_name": "Object-Oriented Programming",
+          "cluster_average": 39.79,
+          "overall_average": 44.75,
+          "difference_from_overall": -4.96
+        },
+        {
+          "skill_name": "Data Structures and Algorithms",
+          "cluster_average": 40.95,
+          "overall_average": 50.29,
+          "difference_from_overall": -9.35
+        }
+      ]
+    }
+  ],
+  "artifacts": {
+    "role_id": "full_stack_developer",
+    "model_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\full_stack_developer\\kmeans_model.joblib",
+    "scaler_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\full_stack_developer\\scaler.joblib",
+    "feature_config_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\full_stack_developer\\feature_config.json",
+    "metadata_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\full_stack_developer\\training_metadata.json",
+    "cluster_analysis_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\full_stack_developer\\cluster_analysis.json"
+  },
+  "reports": {
+    "metrics_csv": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_k_evaluation_metrics.csv",
+    "metadata_json": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_training_metadata.json",
+    "cluster_analysis_json": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_cluster_analysis.json",
+    "plots": {
+      "wcss": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_elbow_wcss.png",
+      "silhouette_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_silhouette_by_k.png",
+      "davies_bouldin_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_davies_bouldin_by_k.png",
+      "calinski_harabasz_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_calinski_harabasz_by_k.png",
+      "cluster_distribution": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_cluster_distribution.png",
+      "cluster_profiles": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_cluster_profiles.png",
+      "pca_clusters": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\full_stack_developer\\full_stack_developer_pca_clusters.png"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "role_id": "full_stack_developer",
+  "role_name": "Full Stack Developer",
+  "feature_names": [
+    "JavaScript",
+    "React",
+    "REST APIs",
+    "Node.js",
+    "Data Structures and Algorithms",
+    "Express.js",
+    "SQL",
+    "CSS",
+    "Git and GitHub",
+    "HTML",
+    "DBMS",
+    "Problem Solving",
+    "MongoDB",
+    "Object-Oriented Programming",
+    "Communication"
+  ],
+  "feature_skill_ids": [
+    "javascript",
+    "react",
+    "rest_apis",
+    "nodejs",
+    "dsa",
+    "expressjs",
+    "sql",
+    "css",
+    "git_github",
+    "html",
+    "dbms",
+    "problem_solving",
+    "mongodb",
+    "oop",
+    "communication"
+  ]
+}

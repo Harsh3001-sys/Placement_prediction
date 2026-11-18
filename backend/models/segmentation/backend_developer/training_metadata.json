@@ -1,0 +1,281 @@
+{
+  "role_id": "backend_developer",
+  "role_name": "Backend Developer",
+  "algorithm": "KMeans",
+  "random_state": 42,
+  "n_init": 10,
+  "max_iter": 300,
+  "n_samples": 167,
+  "n_features": 14,
+  "selected_k": 2,
+  "k_range_evaluated": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "wcss": 1625.122512779294,
+      "inertia": 1625.122512779294,
+      "silhouette_score": 0.24604226012277203,
+      "davies_bouldin_score": 1.424495240401174,
+      "calinski_harabasz_score": 72.37902648351955
+    },
+    {
+      "k": 3,
+      "wcss": 1382.375594785707,
+      "inertia": 1382.375594785707,
+      "silhouette_score": 0.17315428636729516,
+      "davies_bouldin_score": 1.7157834031674524,
+      "calinski_harabasz_score": 56.685897467481986
+    },
+    {
+      "k": 4,
+      "wcss": 1310.4828147951844,
+      "inertia": 1310.4828147951844,
+      "silhouette_score": 0.1206169347017894,
+      "davies_bouldin_score": 2.0616124667256157,
+      "calinski_harabasz_score": 42.60142376471155
+    },
+    {
+      "k": 5,
+      "wcss": 1247.5886932212024,
+      "inertia": 1247.5886932212024,
+      "silhouette_score": 0.10464967899914601,
+      "davies_bouldin_score": 2.2282205166477516,
+      "calinski_harabasz_score": 35.39760993706863
+    },
+    {
+      "k": 6,
+      "wcss": 1194.1508780897043,
+      "inertia": 1194.1508780897043,
+      "silhouette_score": 0.10710953401127679,
+      "davies_bouldin_score": 2.191584542133923,
+      "calinski_harabasz_score": 30.843624872957403
+    },
+    {
+      "k": 7,
+      "wcss": 1155.0758170937956,
+      "inertia": 1155.0758170937956,
+      "silhouette_score": 0.11479979929390334,
+      "davies_bouldin_score": 2.1456946736218865,
+      "calinski_harabasz_score": 27.309588176528546
+    },
+    {
+      "k": 8,
+      "wcss": 1108.0161375766618,
+      "inertia": 1108.0161375766618,
+      "silhouette_score": 0.09734557379735044,
+      "davies_bouldin_score": 2.201937464196263,
+      "calinski_harabasz_score": 25.214619108479727
+    }
+  ],
+  "selection": {
+    "strategy": "aggregate_rank_silhouette_davies_bouldin_calinski_harabasz",
+    "rationale": "Selected K=2 using aggregate rank across Silhouette (higher better), Davies-Bouldin (lower better), and Calinski-Harabasz (higher better) for K=2..8. Ties broken by higher Silhouette, then smaller K (parsimony). For selected K: Silhouette=0.24604226012277203, Davies-Bouldin=1.424495240401174, Calinski-Harabasz=72.37902648351955, WCSS=1625.122512779294. Metric leaders in evaluated range: best Silhouette K=2, best Davies-Bouldin K=2, best Calinski-Harabasz K=2. WCSS is reported for elbow analysis; K was not chosen by a single metric.",
+    "ranks": {
+      "silhouette": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "7": 4,
+        "6": 5,
+        "5": 6,
+        "8": 7
+      },
+      "davies_bouldin": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "7": 4,
+        "6": 5,
+        "8": 6,
+        "5": 7
+      },
+      "calinski_harabasz": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "aggregate": {
+        "2": 3,
+        "3": 6,
+        "4": 9,
+        "5": 17,
+        "6": 15,
+        "7": 14,
+        "8": 20
+      }
+    },
+    "metric_leaders": {
+      "best_silhouette_k": 2,
+      "best_davies_bouldin_k": 2,
+      "best_calinski_harabasz_k": 2
+    }
+  },
+  "final_metrics": {
+    "k": 2,
+    "wcss": 1625.122512779294,
+    "silhouette_score": 0.24604226012277203,
+    "davies_bouldin_score": 1.424495240401174,
+    "calinski_harabasz_score": 72.37902648351955
+  },
+  "feature_names": [
+    "DBMS",
+    "SQL",
+    "REST APIs",
+    "Data Structures and Algorithms",
+    "Node.js",
+    "Object-Oriented Programming",
+    "Java",
+    "Python",
+    "Express.js",
+    "Git and GitHub",
+    "MongoDB",
+    "JavaScript",
+    "System Design",
+    "Problem Solving"
+  ],
+  "feature_skill_ids": [
+    "dbms",
+    "sql",
+    "rest_apis",
+    "dsa",
+    "nodejs",
+    "oop",
+    "java",
+    "python",
+    "expressjs",
+    "git_github",
+    "mongodb",
+    "javascript",
+    "system_design",
+    "problem_solving"
+  ],
+  "preprocessing": {
+    "scaler": "StandardScaler",
+    "scaler_fit": "fit_on_role_training_data_only",
+    "feature_selection": "role_relevant_skills_from_phase1_role_skill_requirements",
+    "feature_order": "phase1_role_requirement_order",
+    "numeric_validation": true,
+    "missing_value_handling": "checked; median imputation within role data if encountered (none expected in provided dataset)",
+    "duplicate_student_id_check": true,
+    "notes": "Clustering and internal evaluation metrics computed on standardized role-specific feature space. Centroid-based interpretation uses original-scale skill values."
+  },
+  "data_summary": {
+    "role_id": "backend_developer",
+    "role_name": "Backend Developer",
+    "n_samples": 167,
+    "n_features": 14,
+    "duplicate_student_ids": 0,
+    "missing_or_non_numeric_cells_imputed": 0,
+    "out_of_range_cells_clamped": 0,
+    "feature_means": {
+      "DBMS": 73.20958083832335,
+      "SQL": 60.97005988023952,
+      "REST APIs": 66.2934131736527,
+      "Data Structures and Algorithms": 62.8502994011976,
+      "Node.js": 67.65269461077844,
+      "Object-Oriented Programming": 59.550898203592816,
+      "Java": 65.2934131736527,
+      "Python": 50.38922155688623,
+      "Express.js": 67.06586826347305,
+      "Git and GitHub": 64.23353293413173,
+      "MongoDB": 66.24550898203593,
+      "JavaScript": 50.17964071856287,
+      "System Design": 62.808383233532936,
+      "Problem Solving": 68.2934131736527
+    },
+    "feature_stds": {
+      "DBMS": 13.896034990135064,
+      "SQL": 13.141070213027543,
+      "REST APIs": 14.185389876737124,
+      "Data Structures and Algorithms": 12.564386864293395,
+      "Node.js": 15.42023250743594,
+      "Object-Oriented Programming": 14.58391316297948,
+      "Java": 13.791132869901428,
+      "Python": 11.739615260301106,
+      "Express.js": 13.988505856681261,
+      "Git and GitHub": 17.824475572497054,
+      "MongoDB": 13.161578571335593,
+      "JavaScript": 13.239527728801178,
+      "System Design": 14.077601069681018,
+      "Problem Solving": 15.761816735178703
+    },
+    "feature_mins": {
+      "DBMS": 25.0,
+      "SQL": 28.0,
+      "REST APIs": 32.0,
+      "Data Structures and Algorithms": 31.0,
+      "Node.js": 21.0,
+      "Object-Oriented Programming": 21.0,
+      "Java": 29.0,
+      "Python": 21.0,
+      "Express.js": 33.0,
+      "Git and GitHub": 6.0,
+      "MongoDB": 23.0,
+      "JavaScript": 5.0,
+      "System Design": 22.0,
+      "Problem Solving": 25.0
+    },
+    "feature_maxs": {
+      "DBMS": 100.0,
+      "SQL": 86.0,
+      "REST APIs": 98.0,
+      "Data Structures and Algorithms": 97.0,
+      "Node.js": 100.0,
+      "Object-Oriented Programming": 94.0,
+      "Java": 100.0,
+      "Python": 80.0,
+      "Express.js": 100.0,
+      "Git and GitHub": 100.0,
+      "MongoDB": 98.0,
+      "JavaScript": 87.0,
+      "System Design": 99.0,
+      "Problem Solving": 100.0
+    }
+  },
+  "disclosure": "Trained on synthetic student skill profiles. Clustering metrics indicate separation/compactness on synthetic data and do not establish real-world student segmentation quality. Cluster assignment is not a placement prediction.",
+  "cluster_analysis_summary": {
+    "cluster_distribution": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Developing Python & SQL Profile",
+        "student_count": 61,
+        "student_percentage": 36.53
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Strong Node.js & REST APIs Profile",
+        "student_count": 106,
+        "student_percentage": 63.47
+      }
+    ],
+    "overall_role_average": 63.22,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Developing Python & SQL Profile",
+        "student_count": 61,
+        "student_percentage": 36.53,
+        "average_skill_proficiency": 53.06
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Strong Node.js & REST APIs Profile",
+        "student_count": 106,
+        "student_percentage": 63.47,
+        "average_skill_proficiency": 69.06
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "role_id": "ml_engineer",
+  "role_name": "Machine Learning Engineer",
+  "feature_names": [
+    "Machine Learning",
+    "Python",
+    "Statistics",
+    "Scikit-learn",
+    "NumPy",
+    "Pandas",
+    "Probability",
+    "Deep Learning",
+    "SQL",
+    "PyTorch",
+    "TensorFlow",
+    "Matplotlib",
+    "Data Structures and Algorithms",
+    "Problem Solving"
+  ],
+  "feature_skill_ids": [
+    "machine_learning",
+    "python",
+    "statistics",
+    "scikit_learn",
+    "numpy",
+    "pandas",
+    "probability",
+    "deep_learning",
+    "sql",
+    "pytorch",
+    "tensorflow",
+    "matplotlib",
+    "dsa",
+    "problem_solving"
+  ]
+}

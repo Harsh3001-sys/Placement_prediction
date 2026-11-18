@@ -1,0 +1,281 @@
+{
+  "role_id": "ml_engineer",
+  "role_name": "Machine Learning Engineer",
+  "algorithm": "KMeans",
+  "random_state": 42,
+  "n_init": 10,
+  "max_iter": 300,
+  "n_samples": 166,
+  "n_features": 14,
+  "selected_k": 2,
+  "k_range_evaluated": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "wcss": 1407.502700095812,
+      "inertia": 1407.502700095812,
+      "silhouette_score": 0.2994616009321471,
+      "davies_bouldin_score": 1.2095553147087714,
+      "calinski_harabasz_score": 106.7888233351561
+    },
+    {
+      "k": 3,
+      "wcss": 1135.169579897209,
+      "inertia": 1135.169579897209,
+      "silhouette_score": 0.22385357753261312,
+      "davies_bouldin_score": 1.4249070642826835,
+      "calinski_harabasz_score": 85.35260365869823
+    },
+    {
+      "k": 4,
+      "wcss": 1046.0681850048154,
+      "inertia": 1046.0681850048154,
+      "silhouette_score": 0.15886865127656633,
+      "davies_bouldin_score": 1.962324118642433,
+      "calinski_harabasz_score": 65.96923508329651
+    },
+    {
+      "k": 5,
+      "wcss": 998.8970735687097,
+      "inertia": 998.8970735687097,
+      "silhouette_score": 0.13301453974556487,
+      "davies_bouldin_score": 2.0152631236029577,
+      "calinski_harabasz_score": 53.394282754589256
+    },
+    {
+      "k": 6,
+      "wcss": 958.6907711554401,
+      "inertia": 958.6907711554401,
+      "silhouette_score": 0.12405153571138997,
+      "davies_bouldin_score": 2.1288786292078026,
+      "calinski_harabasz_score": 45.57245843763541
+    },
+    {
+      "k": 7,
+      "wcss": 925.0610424743645,
+      "inertia": 925.0610424743645,
+      "silhouette_score": 0.10646685370164267,
+      "davies_bouldin_score": 2.17055945286457,
+      "calinski_harabasz_score": 40.07506604674326
+    },
+    {
+      "k": 8,
+      "wcss": 894.4158839465667,
+      "inertia": 894.4158839465667,
+      "silhouette_score": 0.09683964190660016,
+      "davies_bouldin_score": 2.2421859916167146,
+      "calinski_harabasz_score": 36.07690375529671
+    }
+  ],
+  "selection": {
+    "strategy": "aggregate_rank_silhouette_davies_bouldin_calinski_harabasz",
+    "rationale": "Selected K=2 using aggregate rank across Silhouette (higher better), Davies-Bouldin (lower better), and Calinski-Harabasz (higher better) for K=2..8. Ties broken by higher Silhouette, then smaller K (parsimony). For selected K: Silhouette=0.2994616009321471, Davies-Bouldin=1.2095553147087714, Calinski-Harabasz=106.7888233351561, WCSS=1407.502700095812. Metric leaders in evaluated range: best Silhouette K=2, best Davies-Bouldin K=2, best Calinski-Harabasz K=2. WCSS is reported for elbow analysis; K was not chosen by a single metric.",
+    "ranks": {
+      "silhouette": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "davies_bouldin": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "calinski_harabasz": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "aggregate": {
+        "2": 3,
+        "3": 6,
+        "4": 9,
+        "5": 12,
+        "6": 15,
+        "7": 18,
+        "8": 21
+      }
+    },
+    "metric_leaders": {
+      "best_silhouette_k": 2,
+      "best_davies_bouldin_k": 2,
+      "best_calinski_harabasz_k": 2
+    }
+  },
+  "final_metrics": {
+    "k": 2,
+    "wcss": 1407.502700095812,
+    "silhouette_score": 0.2994616009321471,
+    "davies_bouldin_score": 1.2095553147087714,
+    "calinski_harabasz_score": 106.7888233351561
+  },
+  "feature_names": [
+    "Machine Learning",
+    "Python",
+    "Statistics",
+    "Scikit-learn",
+    "NumPy",
+    "Pandas",
+    "Probability",
+    "Deep Learning",
+    "SQL",
+    "PyTorch",
+    "TensorFlow",
+    "Matplotlib",
+    "Data Structures and Algorithms",
+    "Problem Solving"
+  ],
+  "feature_skill_ids": [
+    "machine_learning",
+    "python",
+    "statistics",
+    "scikit_learn",
+    "numpy",
+    "pandas",
+    "probability",
+    "deep_learning",
+    "sql",
+    "pytorch",
+    "tensorflow",
+    "matplotlib",
+    "dsa",
+    "problem_solving"
+  ],
+  "preprocessing": {
+    "scaler": "StandardScaler",
+    "scaler_fit": "fit_on_role_training_data_only",
+    "feature_selection": "role_relevant_skills_from_phase1_role_skill_requirements",
+    "feature_order": "phase1_role_requirement_order",
+    "numeric_validation": true,
+    "missing_value_handling": "checked; median imputation within role data if encountered (none expected in provided dataset)",
+    "duplicate_student_id_check": true,
+    "notes": "Clustering and internal evaluation metrics computed on standardized role-specific feature space. Centroid-based interpretation uses original-scale skill values."
+  },
+  "data_summary": {
+    "role_id": "ml_engineer",
+    "role_name": "Machine Learning Engineer",
+    "n_samples": 166,
+    "n_features": 14,
+    "duplicate_student_ids": 0,
+    "missing_or_non_numeric_cells_imputed": 0,
+    "out_of_range_cells_clamped": 0,
+    "feature_means": {
+      "Machine Learning": 76.08433734939759,
+      "Python": 71.77710843373494,
+      "Statistics": 73.01204819277109,
+      "Scikit-learn": 72.37951807228916,
+      "NumPy": 72.40361445783132,
+      "Pandas": 63.704819277108435,
+      "Probability": 72.1987951807229,
+      "Deep Learning": 64.89759036144578,
+      "SQL": 52.19879518072289,
+      "PyTorch": 58.77710843373494,
+      "TensorFlow": 59.28313253012048,
+      "Matplotlib": 55.373493975903614,
+      "Data Structures and Algorithms": 56.56024096385542,
+      "Problem Solving": 71.53012048192771
+    },
+    "feature_stds": {
+      "Machine Learning": 13.838748480287268,
+      "Python": 14.999749598722863,
+      "Statistics": 14.957767032551587,
+      "Scikit-learn": 14.239155747243293,
+      "NumPy": 14.646426808645028,
+      "Pandas": 14.790206818649411,
+      "Probability": 15.475289233538206,
+      "Deep Learning": 14.39278162372864,
+      "SQL": 13.690300796469307,
+      "PyTorch": 14.917999359560804,
+      "TensorFlow": 14.023580135821568,
+      "Matplotlib": 16.26453814423098,
+      "Data Structures and Algorithms": 14.407347855559435,
+      "Problem Solving": 17.64669145371428
+    },
+    "feature_mins": {
+      "Machine Learning": 36.0,
+      "Python": 33.0,
+      "Statistics": 34.0,
+      "Scikit-learn": 34.0,
+      "NumPy": 31.0,
+      "Pandas": 23.0,
+      "Probability": 20.0,
+      "Deep Learning": 30.0,
+      "SQL": 12.0,
+      "PyTorch": 18.0,
+      "TensorFlow": 25.0,
+      "Matplotlib": 21.0,
+      "Data Structures and Algorithms": 20.0,
+      "Problem Solving": 23.0
+    },
+    "feature_maxs": {
+      "Machine Learning": 100.0,
+      "Python": 100.0,
+      "Statistics": 100.0,
+      "Scikit-learn": 100.0,
+      "NumPy": 100.0,
+      "Pandas": 99.0,
+      "Probability": 100.0,
+      "Deep Learning": 100.0,
+      "SQL": 85.0,
+      "PyTorch": 100.0,
+      "TensorFlow": 92.0,
+      "Matplotlib": 97.0,
+      "Data Structures and Algorithms": 90.0,
+      "Problem Solving": 100.0
+    }
+  },
+  "disclosure": "Trained on synthetic student skill profiles. Clustering metrics indicate separation/compactness on synthetic data and do not establish real-world student segmentation quality. Cluster assignment is not a placement prediction.",
+  "cluster_analysis_summary": {
+    "cluster_distribution": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Strong Statistics & Matplotlib Profile",
+        "student_count": 79,
+        "student_percentage": 47.59
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Developing SQL & TensorFlow Profile",
+        "student_count": 87,
+        "student_percentage": 52.41
+      }
+    ],
+    "overall_role_average": 65.73,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "Strong Statistics & Matplotlib Profile",
+        "student_count": 79,
+        "student_percentage": 47.59,
+        "average_skill_proficiency": 75.46
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Developing SQL & TensorFlow Profile",
+        "student_count": 87,
+        "student_percentage": 52.41,
+        "average_skill_proficiency": 56.89
+      }
+    ]
+  }
+}

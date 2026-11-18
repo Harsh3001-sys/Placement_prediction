@@ -1,0 +1,1362 @@
+{
+  "seed": 42,
+  "total_curated": 165,
+  "total_written": 165,
+  "url_results": [
+    {
+      "resource_id": "res_java_001",
+      "url": "https://docs.oracle.com/javase/tutorial/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_java_002",
+      "url": "https://www.w3schools.com/java/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_java_003",
+      "url": "https://www.coursera.org/specializations/java-programming",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_java_004",
+      "url": "https://www.hackerrank.com/skills-directory/java_basic",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_java_005",
+      "url": "https://www.geeksforgeeks.org/java/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_python_001",
+      "url": "https://docs.python.org/3/tutorial/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_python_002",
+      "url": "https://www.kaggle.com/learn/python",
+      "ok": true,
+      "status": 200,
+      "method": "GET",
+      "error": null
+    },
+    {
+      "resource_id": "res_python_003",
+      "url": "https://www.py4e.com/lessons",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_python_004",
+      "url": "https://automatetheboringstuff.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_python_005",
+      "url": "https://www.hackerrank.com/skills-directory/python_basic",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_cpp_001",
+      "url": "https://www.learncpp.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_cpp_002",
+      "url": "https://www.w3schools.com/cpp/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_cpp_003",
+      "url": "https://cplusplus.com/doc/tutorial/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_cpp_004",
+      "url": "https://www.geeksforgeeks.org/c-plus-plus/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_cpp_005",
+      "url": "https://www.hackerrank.com/domains/cpp",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_javascript_001",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_javascript_002",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_javascript_003",
+      "url": "https://javascript.info/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_javascript_004",
+      "url": "https://www.w3schools.com/js/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_javascript_005",
+      "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_html_001",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_html_002",
+      "url": "https://www.w3schools.com/html/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_html_003",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_html_004",
+      "url": "https://web.dev/learn/html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_html_005",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_css_001",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_css_002",
+      "url": "https://www.w3schools.com/css/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_css_003",
+      "url": "https://web.dev/learn/css",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_css_004",
+      "url": "https://flexboxfroggy.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_css_005",
+      "url": "https://cssgridgarden.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_react_001",
+      "url": "https://react.dev/learn",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_react_002",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_react_003",
+      "url": "https://www.w3schools.com/react/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_react_004",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_react_005",
+      "url": "https://react.dev/learn/adding-interactivity",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_nodejs_001",
+      "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_nodejs_002",
+      "url": "https://www.w3schools.com/nodejs/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_nodejs_003",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_nodejs_004",
+      "url": "https://nodejs.org/en/learn",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_nodejs_005",
+      "url": "https://www.digitalocean.com/community/tutorial-series/how-to-code-in-node-js",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_expressjs_001",
+      "url": "https://expressjs.com/en/starter/installing.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_expressjs_002",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_expressjs_003",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/#basic-node-and-express",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_expressjs_004",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Tutorial_local_library_website",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_expressjs_005",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_rest_apis_001",
+      "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_rest_apis_002",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_rest_apis_003",
+      "url": "https://restfulapi.net/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_rest_apis_004",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_rest_apis_005",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_sql_001",
+      "url": "https://www.w3schools.com/sql/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_sql_002",
+      "url": "https://sqlbolt.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_sql_003",
+      "url": "https://www.kaggle.com/learn/intro-to-sql",
+      "ok": true,
+      "status": 200,
+      "method": "GET",
+      "error": null
+    },
+    {
+      "resource_id": "res_sql_004",
+      "url": "https://www.hackerrank.com/skills-directory/sql_basic",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_sql_005",
+      "url": "https://mode.com/sql-tutorial/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dbms_001",
+      "url": "https://www.geeksforgeeks.org/dbms/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dbms_002",
+      "url": "https://www.khanacademy.org/computing/computer-programming/sql",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dbms_003",
+      "url": "https://online.stanford.edu/courses/soe-ydatabases0005-databases-relational-databases-and-sql",
+      "ok": true,
+      "status": 202,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dbms_004",
+      "url": "https://www.geeksforgeeks.org/introduction-of-database-normalization/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dbms_005",
+      "url": "https://www.geeksforgeeks.org/acid-properties-in-dbms/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_mongodb_001",
+      "url": "https://www.mongodb.com/docs/manual/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_mongodb_002",
+      "url": "https://www.mongodb.com/docs/manual/crud/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_mongodb_003",
+      "url": "https://learn.mongodb.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_mongodb_004",
+      "url": "https://www.mongodb.com/docs/manual/aggregation/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_mongodb_005",
+      "url": "https://www.mongodb.com/docs/drivers/node/current/quick-start/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dsa_001",
+      "url": "https://www.geeksforgeeks.org/data-structures/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dsa_002",
+      "url": "https://www.khanacademy.org/computing/computer-science/algorithms",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dsa_003",
+      "url": "https://neetcode.io/roadmap",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dsa_004",
+      "url": "https://visualgo.net/en",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_dsa_005",
+      "url": "https://www.hackerrank.com/domains/data-structures",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_oop_001",
+      "url": "https://docs.oracle.com/javase/tutorial/java/concepts/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_oop_002",
+      "url": "https://docs.python.org/3/tutorial/classes.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_oop_003",
+      "url": "https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_oop_004",
+      "url": "https://refactoring.guru/design-patterns",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_oop_005",
+      "url": "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_operating_systems_001",
+      "url": "https://www.geeksforgeeks.org/operating-systems/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_operating_systems_002",
+      "url": "https://www.coursera.org/learn/os-power-user",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_operating_systems_003",
+      "url": "https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_operating_systems_004",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_operating_systems_005",
+      "url": "https://www.geeksforgeeks.org/introduction-of-process-synchronization/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_computer_networks_001",
+      "url": "https://www.geeksforgeeks.org/computer-network-tutorials/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_computer_networks_002",
+      "url": "https://www.coursera.org/learn/computer-networking",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_computer_networks_003",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_computer_networks_004",
+      "url": "https://www.geeksforgeeks.org/tcp-ip-model/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_computer_networks_005",
+      "url": "https://www.computer-networking.info/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_system_design_001",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_system_design_002",
+      "url": "https://www.geeksforgeeks.org/what-is-scalability/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_system_design_003",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_system_design_004",
+      "url": "https://www.geeksforgeeks.org/system-design-tutorial/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_system_design_005",
+      "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_git_github_001",
+      "url": "https://git-scm.com/doc",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_git_github_002",
+      "url": "https://git-scm.com/book/en/v2",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_git_github_003",
+      "url": "https://docs.github.com/en/get-started/start-your-journey/hello-world",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_git_github_004",
+      "url": "https://learngitbranching.js.org/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_git_github_005",
+      "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_numpy_001",
+      "url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_numpy_002",
+      "url": "https://numpy.org/doc/stable/user/quickstart.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_numpy_003",
+      "url": "https://www.w3schools.com/python/numpy/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_numpy_004",
+      "url": "https://www.geeksforgeeks.org/numpy-tutorial/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_numpy_005",
+      "url": "https://numpy.org/doc/stable/user/index.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pandas_001",
+      "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pandas_002",
+      "url": "https://www.kaggle.com/learn/pandas",
+      "ok": true,
+      "status": 200,
+      "method": "GET",
+      "error": null
+    },
+    {
+      "resource_id": "res_pandas_003",
+      "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pandas_004",
+      "url": "https://www.w3schools.com/python/pandas/default.asp",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pandas_005",
+      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_matplotlib_001",
+      "url": "https://matplotlib.org/stable/users/explain/quick_start.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_matplotlib_002",
+      "url": "https://matplotlib.org/stable/tutorials/pyplot.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_matplotlib_003",
+      "url": "https://www.kaggle.com/learn/data-visualization",
+      "ok": true,
+      "status": 200,
+      "method": "GET",
+      "error": null
+    },
+    {
+      "resource_id": "res_matplotlib_004",
+      "url": "https://www.w3schools.com/python/matplotlib_intro.asp",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_matplotlib_005",
+      "url": "https://matplotlib.org/stable/gallery/index.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_data_visualization_001",
+      "url": "https://datavizcatalogue.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_data_visualization_002",
+      "url": "https://clauswilke.com/dataviz/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_data_visualization_003",
+      "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/#data-visualization-with-python",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_data_visualization_004",
+      "url": "https://www.data-to-viz.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_data_visualization_005",
+      "url": "https://seaborn.pydata.org/tutorial.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_statistics_001",
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_statistics_002",
+      "url": "https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_statistics_003",
+      "url": "https://greenteapress.com/wp/think-stats-2e/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_statistics_004",
+      "url": "https://statsthinking21.github.io/statsthinking21-core-site/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_statistics_005",
+      "url": "https://www.w3schools.com/statistics/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_probability_001",
+      "url": "https://www.khanacademy.org/math/statistics-probability/probability-library",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_probability_002",
+      "url": "https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_probability_003",
+      "url": "https://www.probabilitycourse.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_probability_004",
+      "url": "https://pages.cs.wisc.edu/~tdw/files/cookbook-en.pdf",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_probability_005",
+      "url": "https://seeing-theory.brown.edu/basic-probability/index.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD/insecure",
+      "error": null
+    },
+    {
+      "resource_id": "res_machine_learning_001",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_machine_learning_002",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "ok": true,
+      "status": 200,
+      "method": "GET",
+      "error": null
+    },
+    {
+      "resource_id": "res_machine_learning_003",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_machine_learning_004",
+      "url": "https://scikit-learn.org/stable/getting_started.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_machine_learning_005",
+      "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+      "ok": true,
+      "status": 200,
+      "method": "GET",
+      "error": null
+    },
+    {
+      "resource_id": "res_deep_learning_001",
+      "url": "https://course.fast.ai/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_deep_learning_002",
+      "url": "https://www.coursera.org/specializations/deep-learning",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_deep_learning_003",
+      "url": "https://introtodeeplearning.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_deep_learning_004",
+      "url": "https://d2l.ai/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_deep_learning_005",
+      "url": "https://cs231n.github.io/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_scikit_learn_001",
+      "url": "https://www.tutorialspoint.com/scikit_learn/index.htm",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD/insecure",
+      "error": null
+    },
+    {
+      "resource_id": "res_scikit_learn_002",
+      "url": "https://scikit-learn.org/stable/user_guide.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_scikit_learn_003",
+      "url": "https://scikit-learn.org/stable/auto_examples/index.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_scikit_learn_004",
+      "url": "https://scikit-learn.org/stable/machine_learning_map.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_scikit_learn_005",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_tensorflow_001",
+      "url": "https://www.tensorflow.org/tutorials",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_tensorflow_002",
+      "url": "https://www.tensorflow.org/learn",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_tensorflow_003",
+      "url": "https://www.coursera.org/learn/introduction-tensorflow",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_tensorflow_004",
+      "url": "https://keras.io/getting_started/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_tensorflow_005",
+      "url": "https://www.tensorflow.org/guide",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pytorch_001",
+      "url": "https://pytorch.org/tutorials/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pytorch_002",
+      "url": "https://pytorch.org/tutorials/beginner/basics/intro.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pytorch_003",
+      "url": "https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pytorch_004",
+      "url": "https://pytorch.org/docs/stable/index.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_pytorch_005",
+      "url": "https://learn.microsoft.com/en-us/training/paths/pytorch-fundamentals/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_problem_solving_001",
+      "url": "https://www.hackerrank.com/skills-directory/problem_solving_basic",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_problem_solving_002",
+      "url": "https://www.hackerrank.com/skills-directory/problem_solving_intermediate",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_problem_solving_003",
+      "url": "https://projecteuler.net/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_problem_solving_004",
+      "url": "https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_problem_solving_005",
+      "url": "https://www.codewars.com/",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_communication_001",
+      "url": "https://www.coursera.org/learn/wharton-communication-skills",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_communication_002",
+      "url": "https://www.coursera.org/learn/public-speaking",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_communication_003",
+      "url": "https://www.mindtools.com/CommSkll/CommunicationIntro.htm",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_communication_004",
+      "url": "https://alison.com/course/business-communication",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_communication_005",
+      "url": "https://www.skillsyouneed.com/present/presentation-tips.html",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_teamwork_001",
+      "url": "https://www.coursera.org/learn/teamwork-skills-effective-communication",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_teamwork_002",
+      "url": "https://www.coursera.org/learn/leadership-collaboration",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_teamwork_003",
+      "url": "https://alison.com/course/teamwork-skills",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_teamwork_004",
+      "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    },
+    {
+      "resource_id": "res_teamwork_005",
+      "url": "https://www.mindtools.com/pages/main/newMN_TMM.htm",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "error": null
+    }
+  ],
+  "coverage": {
+    "communication": 5,
+    "computer_networks": 5,
+    "cpp": 5,
+    "css": 5,
+    "data_visualization": 5,
+    "dbms": 5,
+    "deep_learning": 5,
+    "dsa": 5,
+    "expressjs": 5,
+    "git_github": 5,
+    "html": 5,
+    "java": 5,
+    "javascript": 5,
+    "machine_learning": 5,
+    "matplotlib": 5,
+    "mongodb": 5,
+    "nodejs": 5,
+    "numpy": 5,
+    "oop": 5,
+    "operating_systems": 5,
+    "pandas": 5,
+    "probability": 5,
+    "problem_solving": 5,
+    "python": 5,
+    "pytorch": 5,
+    "react": 5,
+    "rest_apis": 5,
+    "scikit_learn": 5,
+    "sql": 5,
+    "statistics": 5,
+    "system_design": 5,
+    "teamwork": 5,
+    "tensorflow": 5
+  }
+}

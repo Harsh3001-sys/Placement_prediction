@@ -1,4 +1,4 @@
-"""
+﻿"""
 CareerLens Flask Application Factory.
 Configures explicit CORS origins, blueprints, and global error handlers.
 """
@@ -8,6 +8,8 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 from .routes import api_bp
 from .ppo_routes import ppo_bp
+from .skill_gap import skill_gap_bp
+from .student_segmentation import segmentation_bp
 from .predictor import PlacementPredictor
 from .ppo_predictor import PPOPredictor
 
@@ -70,6 +72,8 @@ def create_app(test_config=None) -> Flask:
     # Register blueprints
     app.register_blueprint(api_bp)
     app.register_blueprint(ppo_bp)
+    app.register_blueprint(segmentation_bp)
+    app.register_blueprint(skill_gap_bp)
 
     # Global Error Handlers (return JSON, never HTML or stack traces)
     @app.errorhandler(404)
@@ -95,3 +99,4 @@ def create_app(test_config=None) -> Flask:
         }), 500
 
     return app
+

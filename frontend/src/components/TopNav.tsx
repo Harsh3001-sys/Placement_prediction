@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Menu, Activity, Sparkles, Terminal } from "lucide-react";
 import type { PageView } from "../types/placement";
 import type { ConnectionStatus } from "../hooks/useApiHealth";
@@ -22,17 +22,17 @@ const PAGE_TITLES: Record<PageView, { title: string; subtitle: string }> = {
     title: "PPO Predictor",
     subtitle: "Internship performance evaluation for PPO likelihood",
   },
+  "skill-intelligence": {
+    title: "Skill Intelligence",
+    subtitle: "Role-based skill gap analysis, readiness, and improvement roadmap",
+  },
+  "student-segmentation": {
+    title: "Student Segmentation",
+    subtitle: "Role-aware K-Means clustering insights and personal segment analysis",
+  },
   "model-insights": {
     title: "Model Insights & Transparency",
     subtitle: "Independent metrics and transparency for both ML models",
-  },
-  about: {
-    title: "About CareerLens",
-    subtitle: "Academic context, architecture & responsible AI considerations",
-  },
-  "api-status": {
-    title: "API Status",
-    subtitle: "Independent health of Placement and PPO prediction services",
   },
 };
 
@@ -79,7 +79,7 @@ export const TopNav: React.FC<TopNavProps> = ({
           <span className="font-semibold tracking-wide text-[11px] uppercase">
             ML PROJECT
           </span>
-          <span className="text-[#738091]">·</span>
+          <span className="text-[#738091]">Â·</span>
           <span className="text-[#738091]">LogReg Pipeline</span>
         </div>
 
@@ -125,3 +125,4 @@ export const TopNav: React.FC<TopNavProps> = ({
     </header>
   );
 };
+

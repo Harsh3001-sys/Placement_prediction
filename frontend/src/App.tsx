@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import type { PageView } from "./types/placement";
 import { useApiHealth } from "./hooks/useApiHealth";
 import { Sidebar } from "./components/Sidebar";
@@ -6,9 +6,9 @@ import { TopNav } from "./components/TopNav";
 import { OverviewPage } from "./pages/OverviewPage";
 import { PredictorPage } from "./pages/PredictorPage";
 import { PPOPredictorPage } from "./pages/PPOPredictorPage";
+import { SkillIntelligencePage } from "./pages/SkillIntelligence";
+import { StudentSegmentationPage } from "./pages/StudentSegmentation";
 import { ModelInsightsPage } from "./pages/ModelInsightsPage";
-import { AboutPage } from "./pages/AboutPage";
-import { ApiStatusPage } from "./pages/ApiStatusPage";
 
 export const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<PageView>("overview");
@@ -50,11 +50,11 @@ export const App: React.FC = () => {
 
           {currentPage === "ppo-predictor" && <PPOPredictorPage />}
 
+          {currentPage === "skill-intelligence" && <SkillIntelligencePage />}
+
+          {currentPage === "student-segmentation" && <StudentSegmentationPage />}
+
           {currentPage === "model-insights" && <ModelInsightsPage />}
-
-          {currentPage === "about" && <AboutPage />}
-
-          {currentPage === "api-status" && <ApiStatusPage />}
         </main>
 
         {/* Editorial Footer */}
@@ -62,14 +62,14 @@ export const App: React.FC = () => {
           <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#202B38]">CareerLens</span>
-              <span>—</span>
+              <span>â€”</span>
               <span>Student Intelligence Platform</span>
             </div>
             <div className="flex items-center gap-4 text-[11px]">
               <span>Placement + PPO Prediction</span>
-              <span>·</span>
+              <span>Â·</span>
               <span>Independent ML Pipelines</span>
-              <span>·</span>
+              <span>Â·</span>
               <span>Flask + React</span>
             </div>
           </div>
@@ -80,3 +80,4 @@ export const App: React.FC = () => {
 };
 
 export default App;
+

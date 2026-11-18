@@ -1,0 +1,32 @@
+{
+  "role_id": "data_analyst",
+  "role_name": "Data Analyst",
+  "feature_names": [
+    "SQL",
+    "Pandas",
+    "Statistics",
+    "Data Visualization",
+    "Python",
+    "Matplotlib",
+    "Probability",
+    "DBMS",
+    "NumPy",
+    "Problem Solving",
+    "Communication",
+    "Git and GitHub"
+  ],
+  "feature_skill_ids": [
+    "sql",
+    "pandas",
+    "statistics",
+    "data_visualization",
+    "python",
+    "matplotlib",
+    "probability",
+    "dbms",
+    "numpy",
+    "problem_solving",
+    "communication",
+    "git_github"
+  ]
+}

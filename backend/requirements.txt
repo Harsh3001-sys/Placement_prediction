@@ -1,4 +1,4 @@
-# Core Web Framework
+﻿# Core Web Framework
 flask>=3.0.0,<4.0.0
 flask-cors>=4.0.0,<7.0.0
 
@@ -6,6 +6,9 @@ flask-cors>=4.0.0,<7.0.0
 gunicorn>=21.2.0,<24.0.0
 
 # Machine Learning & Data Processing
+# Visualization (Phase 3 segmentation reports/plots)
+matplotlib>=3.8,<4.0
+
 # Trained model artifacts were serialized with scikit-learn 1.6.1; pin runtime to match.
 scikit-learn==1.6.1
 numpy>=1.26.4,<2.3
@@ -15,3 +18,4 @@ joblib>=1.4.2,<2.0
 
 # Testing
 pytest>=8.0.0,<9.0
+

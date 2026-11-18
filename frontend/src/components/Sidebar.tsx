@@ -1,9 +1,8 @@
-import React from "react";
+﻿import React from "react";
 import {
   LayoutDashboard,
   Target,
   BarChart3,
-  BookOpen,
   Server,
   RefreshCw,
   CheckCircle2,
@@ -11,6 +10,8 @@ import {
   Clock,
   X,
   BriefcaseBusiness,
+  BrainCircuit,
+  Users,
 } from "lucide-react";
 import type { PageView } from "../types/placement";
 import type { ConnectionStatus } from "../hooks/useApiHealth";
@@ -52,22 +53,22 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: BriefcaseBusiness,
     },
     {
+      id: "skill-intelligence" as PageView,
+      label: "Skill Intelligence",
+      description: "Role readiness & skill gap analysis",
+      icon: BrainCircuit,
+    },
+    {
+      id: "student-segmentation" as PageView,
+      label: "Student Segmentation",
+      description: "Role-aware K-Means clusters",
+      icon: Users,
+    },
+    {
       id: "model-insights" as PageView,
       label: "Model Insights",
       description: "Metrics & model transparency",
       icon: BarChart3,
-    },
-    {
-      id: "about" as PageView,
-      label: "About",
-      description: "Architecture & methodology",
-      icon: BookOpen,
-    },
-    {
-      id: "api-status" as PageView,
-      label: "API Status",
-      description: "Placement & PPO service health",
-      icon: Server,
     },
   ];
 
@@ -224,15 +225,16 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </div>
 
             <div className="mt-2 text-[10px] text-[#738091]">
-              View full Placement & PPO health in API Status.
+              Service health details are available via backend API endpoints.
             </div>
           </div>
 
           <div className="mt-3 px-1 text-center text-[11px] text-[#738091]">
-            CareerLens · Student Intelligence
+            CareerLens Â· Student Intelligence
           </div>
         </div>
       </aside>
     </>
   );
 };
+

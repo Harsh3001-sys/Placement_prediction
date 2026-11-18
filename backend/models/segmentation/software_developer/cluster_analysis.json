@@ -1,0 +1,529 @@
+{
+  "role_id": "software_developer",
+  "role_name": "Software Developer",
+  "n_students": 167,
+  "overall_role_average": 57.88,
+  "overall_average_per_skill": {
+    "Data Structures and Algorithms": 69.25,
+    "Object-Oriented Programming": 62.05,
+    "Java": 69.4,
+    "Problem Solving": 75.06,
+    "Python": 50.19,
+    "Git and GitHub": 64.37,
+    "DBMS": 50.37,
+    "SQL": 44.7,
+    "Operating Systems": 51.19,
+    "C++": 58.68,
+    "Computer Networks": 47.4,
+    "Communication": 49.78,
+    "Teamwork": 60.06
+  },
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Developing DBMS & Computer Networks Profile",
+      "cluster_description": "Cluster 0 (Developing DBMS & Computer Networks Profile) includes students whose role-relevant skill profile averages 48.7 across selected skills (-9.2 points vs overall role average 57.9). Compared with the role cohort, notable strengths appear in DBMS (43.74 avg, -6.6 vs role avg), Computer Networks (40.63 avg, -6.8 vs role avg), SQL (37.78 avg, -6.9 vs role avg). Lower relative areas include Problem Solving (61.99 avg, -13.1 vs role avg), Operating Systems (40.29 avg, -10.9 vs role avg), Teamwork (49.74 avg, -10.3 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 0 skills and below requirement in 13 skills. This group is relatively lower in Professional Skills, Tools & Collaboration compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 78,
+      "student_percentage": 46.71,
+      "average_skill_proficiency": 48.68,
+      "difference_from_overall_role_average": -9.2,
+      "average_proficiency_per_skill": {
+        "Data Structures and Algorithms": 59.15,
+        "Object-Oriented Programming": 52.9,
+        "Java": 59.41,
+        "Problem Solving": 61.99,
+        "Python": 42.6,
+        "Git and GitHub": 54.32,
+        "DBMS": 43.74,
+        "SQL": 37.78,
+        "Operating Systems": 40.29,
+        "C++": 49.44,
+        "Computer Networks": 40.63,
+        "Communication": 40.9,
+        "Teamwork": 49.74
+      },
+      "skill_profile_vs_requirements": [
+        {
+          "skill_id": "dbms",
+          "skill_name": "DBMS",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 43.74,
+          "required_proficiency": 70.0,
+          "overall_average": 50.37,
+          "difference_from_required": -26.26,
+          "difference_from_overall": -6.63
+        },
+        {
+          "skill_id": "computer_networks",
+          "skill_name": "Computer Networks",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 40.63,
+          "required_proficiency": 55.0,
+          "overall_average": 47.4,
+          "difference_from_required": -14.37,
+          "difference_from_overall": -6.77
+        },
+        {
+          "skill_id": "sql",
+          "skill_name": "SQL",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 37.78,
+          "required_proficiency": 65.0,
+          "overall_average": 44.7,
+          "difference_from_required": -27.22,
+          "difference_from_overall": -6.92
+        },
+        {
+          "skill_id": "python",
+          "skill_name": "Python",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 42.6,
+          "required_proficiency": 70.0,
+          "overall_average": 50.19,
+          "difference_from_required": -27.4,
+          "difference_from_overall": -7.59
+        },
+        {
+          "skill_id": "communication",
+          "skill_name": "Communication",
+          "skill_category": "Professional Skills",
+          "is_core_skill": false,
+          "cluster_average": 40.9,
+          "required_proficiency": 65.0,
+          "overall_average": 49.78,
+          "difference_from_required": -24.1,
+          "difference_from_overall": -8.88
+        },
+        {
+          "skill_id": "oop",
+          "skill_name": "Object-Oriented Programming",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": true,
+          "cluster_average": 52.9,
+          "required_proficiency": 80.0,
+          "overall_average": 62.05,
+          "difference_from_required": -27.1,
+          "difference_from_overall": -9.16
+        },
+        {
+          "skill_id": "cpp",
+          "skill_name": "C++",
+          "skill_category": "Programming Languages",
+          "is_core_skill": false,
+          "cluster_average": 49.44,
+          "required_proficiency": 55.0,
+          "overall_average": 58.68,
+          "difference_from_required": -5.56,
+          "difference_from_overall": -9.24
+        },
+        {
+          "skill_id": "java",
+          "skill_name": "Java",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 59.41,
+          "required_proficiency": 75.0,
+          "overall_average": 69.4,
+          "difference_from_required": -15.59,
+          "difference_from_overall": -9.99
+        },
+        {
+          "skill_id": "git_github",
+          "skill_name": "Git and GitHub",
+          "skill_category": "Tools & Collaboration",
+          "is_core_skill": true,
+          "cluster_average": 54.32,
+          "required_proficiency": 75.0,
+          "overall_average": 64.37,
+          "difference_from_required": -20.68,
+          "difference_from_overall": -10.04
+        },
+        {
+          "skill_id": "dsa",
+          "skill_name": "Data Structures and Algorithms",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": true,
+          "cluster_average": 59.15,
+          "required_proficiency": 85.0,
+          "overall_average": 69.25,
+          "difference_from_required": -25.85,
+          "difference_from_overall": -10.09
+        },
+        {
+          "skill_id": "teamwork",
+          "skill_name": "Teamwork",
+          "skill_category": "Professional Skills",
+          "is_core_skill": false,
+          "cluster_average": 49.74,
+          "required_proficiency": 65.0,
+          "overall_average": 60.06,
+          "difference_from_required": -15.26,
+          "difference_from_overall": -10.32
+        },
+        {
+          "skill_id": "operating_systems",
+          "skill_name": "Operating Systems",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 40.29,
+          "required_proficiency": 60.0,
+          "overall_average": 51.19,
+          "difference_from_required": -19.71,
+          "difference_from_overall": -10.9
+        },
+        {
+          "skill_id": "problem_solving",
+          "skill_name": "Problem Solving",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 61.99,
+          "required_proficiency": 85.0,
+          "overall_average": 75.06,
+          "difference_from_required": -23.01,
+          "difference_from_overall": -13.07
+        }
+      ],
+      "strongest_skills": [
+        {
+          "skill_name": "Problem Solving",
+          "cluster_average": 61.99,
+          "overall_average": 75.06,
+          "difference_from_overall": -13.07
+        },
+        {
+          "skill_name": "Java",
+          "cluster_average": 59.41,
+          "overall_average": 69.4,
+          "difference_from_overall": -9.99
+        },
+        {
+          "skill_name": "Data Structures and Algorithms",
+          "cluster_average": 59.15,
+          "overall_average": 69.25,
+          "difference_from_overall": -10.09
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "SQL",
+          "cluster_average": 37.78,
+          "overall_average": 44.7,
+          "difference_from_overall": -6.92
+        },
+        {
+          "skill_name": "Operating Systems",
+          "cluster_average": 40.29,
+          "overall_average": 51.19,
+          "difference_from_overall": -10.9
+        },
+        {
+          "skill_name": "Computer Networks",
+          "cluster_average": 40.63,
+          "overall_average": 47.4,
+          "difference_from_overall": -6.77
+        }
+      ],
+      "category_profile": [
+        {
+          "category": "Databases",
+          "cluster_average": 40.76,
+          "overall_average": 47.54,
+          "required_average": 67.5,
+          "difference_from_overall": -6.77
+        },
+        {
+          "category": "Programming Languages",
+          "cluster_average": 50.48,
+          "overall_average": 59.42,
+          "required_average": 66.67,
+          "difference_from_overall": -8.94
+        },
+        {
+          "category": "Computer Science Fundamentals",
+          "cluster_average": 48.24,
+          "overall_average": 57.47,
+          "required_average": 70.0,
+          "difference_from_overall": -9.23
+        },
+        {
+          "category": "Tools & Collaboration",
+          "cluster_average": 54.32,
+          "overall_average": 64.37,
+          "required_average": 75.0,
+          "difference_from_overall": -10.04
+        },
+        {
+          "category": "Professional Skills",
+          "cluster_average": 50.88,
+          "overall_average": 61.63,
+          "required_average": 71.67,
+          "difference_from_overall": -10.76
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Strong Problem Solving & Operating Systems Profile",
+      "cluster_description": "Cluster 1 (Strong Problem Solving & Operating Systems Profile) includes students whose role-relevant skill profile averages 65.9 across selected skills (+8.1 points vs overall role average 57.9). Compared with the role cohort, notable strengths appear in Problem Solving (86.52 avg, +11.5 vs role avg), Operating Systems (60.74 avg, +9.5 vs role avg), Teamwork (69.1 avg, +9.0 vs role avg). Lower relative areas include DBMS (56.18 avg, +5.8 vs role avg), Computer Networks (53.34 avg, +5.9 vs role avg), SQL (50.76 avg, +6.1 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 5 skills and below requirement in 8 skills. This group is relatively stronger in Professional Skills, Tools & Collaboration compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 89,
+      "student_percentage": 53.29,
+      "average_skill_proficiency": 65.95,
+      "difference_from_overall_role_average": 8.06,
+      "average_proficiency_per_skill": {
+        "Data Structures and Algorithms": 78.09,
+        "Object-Oriented Programming": 70.08,
+        "Java": 78.16,
+        "Problem Solving": 86.52,
+        "Python": 56.84,
+        "Git and GitHub": 73.17,
+        "DBMS": 56.18,
+        "SQL": 50.76,
+        "Operating Systems": 60.74,
+        "C++": 66.78,
+        "Computer Networks": 53.34,
+        "Communication": 57.56,
+        "Teamwork": 69.1
+      },
+      "skill_profile_vs_requirements": [
+        {
+          "skill_id": "problem_solving",
+          "skill_name": "Problem Solving",
+          "skill_category": "Professional Skills",
+          "is_core_skill": true,
+          "cluster_average": 86.52,
+          "required_proficiency": 85.0,
+          "overall_average": 75.06,
+          "difference_from_required": 1.52,
+          "difference_from_overall": 11.46
+        },
+        {
+          "skill_id": "operating_systems",
+          "skill_name": "Operating Systems",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 60.74,
+          "required_proficiency": 60.0,
+          "overall_average": 51.19,
+          "difference_from_required": 0.74,
+          "difference_from_overall": 9.55
+        },
+        {
+          "skill_id": "teamwork",
+          "skill_name": "Teamwork",
+          "skill_category": "Professional Skills",
+          "is_core_skill": false,
+          "cluster_average": 69.1,
+          "required_proficiency": 65.0,
+          "overall_average": 60.06,
+          "difference_from_required": 4.1,
+          "difference_from_overall": 9.04
+        },
+        {
+          "skill_id": "dsa",
+          "skill_name": "Data Structures and Algorithms",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": true,
+          "cluster_average": 78.09,
+          "required_proficiency": 85.0,
+          "overall_average": 69.25,
+          "difference_from_required": -6.91,
+          "difference_from_overall": 8.84
+        },
+        {
+          "skill_id": "git_github",
+          "skill_name": "Git and GitHub",
+          "skill_category": "Tools & Collaboration",
+          "is_core_skill": true,
+          "cluster_average": 73.17,
+          "required_proficiency": 75.0,
+          "overall_average": 64.37,
+          "difference_from_required": -1.83,
+          "difference_from_overall": 8.8
+        },
+        {
+          "skill_id": "java",
+          "skill_name": "Java",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 78.16,
+          "required_proficiency": 75.0,
+          "overall_average": 69.4,
+          "difference_from_required": 3.16,
+          "difference_from_overall": 8.76
+        },
+        {
+          "skill_id": "cpp",
+          "skill_name": "C++",
+          "skill_category": "Programming Languages",
+          "is_core_skill": false,
+          "cluster_average": 66.78,
+          "required_proficiency": 55.0,
+          "overall_average": 58.68,
+          "difference_from_required": 11.78,
+          "difference_from_overall": 8.1
+        },
+        {
+          "skill_id": "oop",
+          "skill_name": "Object-Oriented Programming",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": true,
+          "cluster_average": 70.08,
+          "required_proficiency": 80.0,
+          "overall_average": 62.05,
+          "difference_from_required": -9.92,
+          "difference_from_overall": 8.02
+        },
+        {
+          "skill_id": "communication",
+          "skill_name": "Communication",
+          "skill_category": "Professional Skills",
+          "is_core_skill": false,
+          "cluster_average": 57.56,
+          "required_proficiency": 65.0,
+          "overall_average": 49.78,
+          "difference_from_required": -7.44,
+          "difference_from_overall": 7.78
+        },
+        {
+          "skill_id": "python",
+          "skill_name": "Python",
+          "skill_category": "Programming Languages",
+          "is_core_skill": true,
+          "cluster_average": 56.84,
+          "required_proficiency": 70.0,
+          "overall_average": 50.19,
+          "difference_from_required": -13.16,
+          "difference_from_overall": 6.65
+        },
+        {
+          "skill_id": "sql",
+          "skill_name": "SQL",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 50.76,
+          "required_proficiency": 65.0,
+          "overall_average": 44.7,
+          "difference_from_required": -14.24,
+          "difference_from_overall": 6.06
+        },
+        {
+          "skill_id": "computer_networks",
+          "skill_name": "Computer Networks",
+          "skill_category": "Computer Science Fundamentals",
+          "is_core_skill": false,
+          "cluster_average": 53.34,
+          "required_proficiency": 55.0,
+          "overall_average": 47.4,
+          "difference_from_required": -1.66,
+          "difference_from_overall": 5.94
+        },
+        {
+          "skill_id": "dbms",
+          "skill_name": "DBMS",
+          "skill_category": "Databases",
+          "is_core_skill": true,
+          "cluster_average": 56.18,
+          "required_proficiency": 70.0,
+          "overall_average": 50.37,
+          "difference_from_required": -13.82,
+          "difference_from_overall": 5.81
+        }
+      ],
+      "strongest_skills": [
+        {
+          "skill_name": "Problem Solving",
+          "cluster_average": 86.52,
+          "overall_average": 75.06,
+          "difference_from_overall": 11.46
+        },
+        {
+          "skill_name": "Java",
+          "cluster_average": 78.16,
+          "overall_average": 69.4,
+          "difference_from_overall": 8.76
+        },
+        {
+          "skill_name": "Data Structures and Algorithms",
+          "cluster_average": 78.09,
+          "overall_average": 69.25,
+          "difference_from_overall": 8.84
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "SQL",
+          "cluster_average": 50.76,
+          "overall_average": 44.7,
+          "difference_from_overall": 6.06
+        },
+        {
+          "skill_name": "Computer Networks",
+          "cluster_average": 53.34,
+          "overall_average": 47.4,
+          "difference_from_overall": 5.94
+        },
+        {
+          "skill_name": "DBMS",
+          "cluster_average": 56.18,
+          "overall_average": 50.37,
+          "difference_from_overall": 5.81
+        }
+      ],
+      "category_profile": [
+        {
+          "category": "Professional Skills",
+          "cluster_average": 71.06,
+          "overall_average": 61.63,
+          "required_average": 71.67,
+          "difference_from_overall": 9.43
+        },
+        {
+          "category": "Tools & Collaboration",
+          "cluster_average": 73.17,
+          "overall_average": 64.37,
+          "required_average": 75.0,
+          "difference_from_overall": 8.8
+        },
+        {
+          "category": "Computer Science Fundamentals",
+          "cluster_average": 65.56,
+          "overall_average": 57.47,
+          "required_average": 70.0,
+          "difference_from_overall": 8.09
+        },
+        {
+          "category": "Programming Languages",
+          "cluster_average": 67.26,
+          "overall_average": 59.42,
+          "required_average": 66.67,
+          "difference_from_overall": 7.84
+        },
+        {
+          "category": "Databases",
+          "cluster_average": 53.47,
+          "overall_average": 47.54,
+          "required_average": 67.5,
+          "difference_from_overall": 5.94
+        }
+      ]
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Developing DBMS & Computer Networks Profile",
+      "student_count": 78,
+      "student_percentage": 46.71
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Strong Problem Solving & Operating Systems Profile",
+      "student_count": 89,
+      "student_percentage": 53.29
+    }
+  ]
+}

@@ -12,6 +12,21 @@ import type {
   PPOPredictionResponse,
   PPOHealthResponse,
   PPOModelInfoResponse,
+  SkillRolesResponse,
+  SkillRequirementsResponse,
+  SkillMetadataResponse,
+  SkillAnalysisRequest,
+  SkillAnalysisResponse,
+  SkillRecommendRequest,
+  SkillRecommendResponse,
+  SkillResourcesResponse,
+  SkillResourcesSummaryResponse,
+  SegmentationRolesResponse,
+  SegmentationOverviewResponse,
+  SegmentationClustersResponse,
+  SegmentationPredictRequest,
+  SegmentationPredictResponse,
+  SegmentationModelInfoResponse,
 } from "../types/placement";
 
 function normalizeApiBaseUrl(raw: string): string {
@@ -148,5 +163,77 @@ export const apiService = {
    */
   async getPPOModelInfo(): Promise<PPOModelInfoResponse> {
     return request<PPOModelInfoResponse>("/ppo/info");
+  },
+
+  async getSkillRoles(): Promise<SkillRolesResponse> {
+    return request<SkillRolesResponse>("/skills/roles");
+  },
+
+  async getSkillRequirements(roleId: string): Promise<SkillRequirementsResponse> {
+    return request<SkillRequirementsResponse>(`/skills/requirements/${encodeURIComponent(roleId)}`);
+  },
+
+  async getSkillMetadata(): Promise<SkillMetadataResponse> {
+    return request<SkillMetadataResponse>("/skills/metadata");
+  },
+
+  async analyzeSkillGap(payload: SkillAnalysisRequest): Promise<SkillAnalysisResponse> {
+    return request<SkillAnalysisResponse>("/skills/analyze", {
+      method: "POST",
+      body: JSON.stringify(payload),
+    });
+  },
+
+  async getSkillResources(params?: {
+    skill_id?: string;
+    difficulty?: string;
+    resource_type?: string;
+    free_only?: boolean;
+    provider?: string;
+  }): Promise<SkillResourcesResponse> {
+    const q = new URLSearchParams();
+    if (params) {
+      Object.entries(params).forEach(([k, v]) => {
+        if (v === undefined || v === null || v === "") return;
+        q.set(k, String(v));
+      });
+    }
+    const qs = q.toString();
+    return request<SkillResourcesResponse>(`/skills/resources${qs ? `?${qs}` : ""}`);
+  },
+
+  async getSkillResourcesSummary(): Promise<SkillResourcesSummaryResponse> {
+    return request<SkillResourcesSummaryResponse>("/skills/resources/summary");
+  },
+
+  async recommendSkills(payload: SkillRecommendRequest): Promise<SkillRecommendResponse> {
+    return request<SkillRecommendResponse>("/skills/recommend", {
+      method: "POST",
+      body: JSON.stringify(payload),
+    });
+  },
+
+  // Phase 3: Student Segmentation
+  async getSegmentationRoles(): Promise<SegmentationRolesResponse> {
+    return request<SegmentationRolesResponse>("/segmentation/roles");
+  },
+
+  async getSegmentationOverview(roleId: string): Promise<SegmentationOverviewResponse> {
+    return request<SegmentationOverviewResponse>(`/segmentation/overview/${encodeURIComponent(roleId)}`);
+  },
+
+  async getSegmentationClusters(roleId: string): Promise<SegmentationClustersResponse> {
+    return request<SegmentationClustersResponse>(`/segmentation/clusters/${roleId ? encodeURIComponent(roleId) : ""}`);
+  },
+
+  async predictStudentSegment(payload: SegmentationPredictRequest): Promise<SegmentationPredictResponse> {
+    return request<SegmentationPredictResponse>("/segmentation/predict", {
+      method: "POST",
+      body: JSON.stringify(payload),
+    });
+  },
+
+  async getSegmentationModelInfo(roleId: string): Promise<SegmentationModelInfoResponse> {
+    return request<SegmentationModelInfoResponse>(`/segmentation/model-info/${encodeURIComponent(roleId)}`);
   },
 };

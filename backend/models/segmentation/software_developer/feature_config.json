@@ -1,0 +1,34 @@
+{
+  "role_id": "software_developer",
+  "role_name": "Software Developer",
+  "feature_names": [
+    "Data Structures and Algorithms",
+    "Object-Oriented Programming",
+    "Java",
+    "Problem Solving",
+    "Python",
+    "Git and GitHub",
+    "DBMS",
+    "SQL",
+    "Operating Systems",
+    "C++",
+    "Computer Networks",
+    "Communication",
+    "Teamwork"
+  ],
+  "feature_skill_ids": [
+    "dsa",
+    "oop",
+    "java",
+    "problem_solving",
+    "python",
+    "git_github",
+    "dbms",
+    "sql",
+    "operating_systems",
+    "cpp",
+    "computer_networks",
+    "communication",
+    "teamwork"
+  ]
+}

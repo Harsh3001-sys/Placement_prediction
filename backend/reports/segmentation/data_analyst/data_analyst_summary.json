@@ -1,0 +1,268 @@
+{
+  "role_id": "data_analyst",
+  "role_name": "Data Analyst",
+  "status": "trained",
+  "n_students": 166,
+  "n_features": 12,
+  "feature_names": [
+    "SQL",
+    "Pandas",
+    "Statistics",
+    "Data Visualization",
+    "Python",
+    "Matplotlib",
+    "Probability",
+    "DBMS",
+    "NumPy",
+    "Problem Solving",
+    "Communication",
+    "Git and GitHub"
+  ],
+  "selected_k": 2,
+  "final_metrics": {
+    "k": 2,
+    "wcss": 1251.8806169484426,
+    "silhouette_score": 0.291372435314659,
+    "davies_bouldin_score": 1.2651578274320752,
+    "calinski_harabasz_score": 96.957790684808
+  },
+  "selection": {
+    "strategy": "aggregate_rank_silhouette_davies_bouldin_calinski_harabasz",
+    "rationale": "Selected K=2 using aggregate rank across Silhouette (higher better), Davies-Bouldin (lower better), and Calinski-Harabasz (higher better) for K=2..8. Ties broken by higher Silhouette, then smaller K (parsimony). For selected K: Silhouette=0.291372435314659, Davies-Bouldin=1.2651578274320752, Calinski-Harabasz=96.957790684808, WCSS=1251.8806169484426. Metric leaders in evaluated range: best Silhouette K=2, best Davies-Bouldin K=2, best Calinski-Harabasz K=2. WCSS is reported for elbow analysis; K was not chosen by a single metric.",
+    "ranks": {
+      "silhouette": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "davies_bouldin": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "7": 5,
+        "8": 6,
+        "6": 7
+      },
+      "calinski_harabasz": {
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7
+      },
+      "aggregate": {
+        "2": 3,
+        "3": 6,
+        "4": 9,
+        "5": 12,
+        "6": 17,
+        "7": 17,
+        "8": 20
+      }
+    },
+    "metric_leaders": {
+      "best_silhouette_k": 2,
+      "best_davies_bouldin_k": 2,
+      "best_calinski_harabasz_k": 2
+    }
+  },
+  "candidate_metrics": [
+    {
+      "k": 2,
+      "wcss": 1251.8806169484426,
+      "inertia": 1251.8806169484426,
+      "silhouette_score": 0.291372435314659,
+      "davies_bouldin_score": 1.2651578274320752,
+      "calinski_harabasz_score": 96.957790684808
+    },
+    {
+      "k": 3,
+      "wcss": 1098.0256185223425,
+      "inertia": 1098.0256185223425,
+      "silhouette_score": 0.1681085732156588,
+      "davies_bouldin_score": 1.7518607460485602,
+      "calinski_harabasz_score": 66.35447375852515
+    },
+    {
+      "k": 4,
+      "wcss": 1009.2643875023614,
+      "inertia": 1009.2643875023614,
+      "silhouette_score": 0.13387002713873175,
+      "davies_bouldin_score": 1.9106070265693527,
+      "calinski_harabasz_score": 52.580596057887085
+    },
+    {
+      "k": 5,
+      "wcss": 958.5115146205922,
+      "inertia": 958.5115146205922,
+      "silhouette_score": 0.11932397518688037,
+      "davies_bouldin_score": 2.130726278994165,
+      "calinski_harabasz_score": 43.39844738640086
+    },
+    {
+      "k": 6,
+      "wcss": 923.6204046189913,
+      "inertia": 923.6204046189913,
+      "silhouette_score": 0.10622900058972526,
+      "davies_bouldin_score": 2.208569089524714,
+      "calinski_harabasz_score": 37.01536570783693
+    },
+    {
+      "k": 7,
+      "wcss": 895.2920661059167,
+      "inertia": 895.2920661059167,
+      "silhouette_score": 0.10570530331903384,
+      "davies_bouldin_score": 2.1621412160711744,
+      "calinski_harabasz_score": 32.461764544169405
+    },
+    {
+      "k": 8,
+      "wcss": 866.7081519380748,
+      "inertia": 866.7081519380748,
+      "silhouette_score": 0.10411697875279947,
+      "davies_bouldin_score": 2.185973270553096,
+      "calinski_harabasz_score": 29.305648635869012
+    }
+  ],
+  "cluster_distribution": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Developing DBMS & Python Profile",
+      "student_count": 86,
+      "student_percentage": 51.81
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Strong Git/GitHub & Matplotlib Profile",
+      "student_count": 80,
+      "student_percentage": 48.19
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Developing DBMS & Python Profile",
+      "cluster_description": "Cluster 0 (Developing DBMS & Python Profile) includes students whose role-relevant skill profile averages 53.4 across selected skills (-8.6 points vs overall role average 62.1). Compared with the role cohort, notable strengths appear in DBMS (48.67 avg, -7.1 vs role avg), Python (54.44 avg, -7.6 vs role avg), Probability (47.19 avg, -8.1 vs role avg). Lower relative areas include Git and GitHub (35.69 avg, -9.8 vs role avg), Matplotlib (57.83 avg, -9.2 vs role avg), SQL (61.35 avg, -9.1 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 0 skills and below requirement in 12 skills. This group is relatively lower in Tools & Collaboration, Professional Skills compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 86,
+      "student_percentage": 51.81,
+      "average_skill_proficiency": 53.43,
+      "strongest_skills": [
+        {
+          "skill_name": "Pandas",
+          "cluster_average": 61.55,
+          "overall_average": 70.49,
+          "difference_from_overall": -8.95
+        },
+        {
+          "skill_name": "Data Visualization",
+          "cluster_average": 61.44,
+          "overall_average": 70.16,
+          "difference_from_overall": -8.71
+        },
+        {
+          "skill_name": "SQL",
+          "cluster_average": 61.35,
+          "overall_average": 70.4,
+          "difference_from_overall": -9.05
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "Git and GitHub",
+          "cluster_average": 35.69,
+          "overall_average": 45.46,
+          "difference_from_overall": -9.78
+        },
+        {
+          "skill_name": "Probability",
+          "cluster_average": 47.19,
+          "overall_average": 55.33,
+          "difference_from_overall": -8.15
+        },
+        {
+          "skill_name": "DBMS",
+          "cluster_average": 48.67,
+          "overall_average": 55.77,
+          "difference_from_overall": -7.09
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Strong Git/GitHub & Matplotlib Profile",
+      "cluster_description": "Cluster 1 (Strong Git/GitHub & Matplotlib Profile) includes students whose role-relevant skill profile averages 71.3 across selected skills (+9.3 points vs overall role average 62.1). Compared with the role cohort, notable strengths appear in Git and GitHub (55.98 avg, +10.5 vs role avg), Matplotlib (76.84 avg, +9.8 vs role avg), SQL (80.14 avg, +9.7 vs role avg). Lower relative areas include DBMS (63.39 avg, +7.6 vs role avg), Python (70.24 avg, +8.2 vs role avg), Probability (64.09 avg, +8.8 vs role avg). Against role benchmark requirements, this cluster is at/above requirement in 3 skills and below requirement in 9 skills. This group is relatively stronger in Tools & Collaboration, Professional Skills compared to other students in the same role. This description is derived from learned cluster centroids and Phase 1 role requirements (synthetic-profile analysis).",
+      "student_count": 80,
+      "student_percentage": 48.19,
+      "average_skill_proficiency": 71.34,
+      "strongest_skills": [
+        {
+          "skill_name": "SQL",
+          "cluster_average": 80.14,
+          "overall_average": 70.4,
+          "difference_from_overall": 9.73
+        },
+        {
+          "skill_name": "Pandas",
+          "cluster_average": 80.11,
+          "overall_average": 70.49,
+          "difference_from_overall": 9.62
+        },
+        {
+          "skill_name": "Data Visualization",
+          "cluster_average": 79.53,
+          "overall_average": 70.16,
+          "difference_from_overall": 9.37
+        }
+      ],
+      "weakest_skills": [
+        {
+          "skill_name": "Git and GitHub",
+          "cluster_average": 55.98,
+          "overall_average": 45.46,
+          "difference_from_overall": 10.51
+        },
+        {
+          "skill_name": "DBMS",
+          "cluster_average": 63.39,
+          "overall_average": 55.77,
+          "difference_from_overall": 7.62
+        },
+        {
+          "skill_name": "Probability",
+          "cluster_average": 64.09,
+          "overall_average": 55.33,
+          "difference_from_overall": 8.76
+        }
+      ]
+    }
+  ],
+  "artifacts": {
+    "role_id": "data_analyst",
+    "model_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\data_analyst\\kmeans_model.joblib",
+    "scaler_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\data_analyst\\scaler.joblib",
+    "feature_config_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\data_analyst\\feature_config.json",
+    "metadata_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\data_analyst\\training_metadata.json",
+    "cluster_analysis_path": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\models\\segmentation\\data_analyst\\cluster_analysis.json"
+  },
+  "reports": {
+    "metrics_csv": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_k_evaluation_metrics.csv",
+    "metadata_json": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_training_metadata.json",
+    "cluster_analysis_json": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_cluster_analysis.json",
+    "plots": {
+      "wcss": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_elbow_wcss.png",
+      "silhouette_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_silhouette_by_k.png",
+      "davies_bouldin_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_davies_bouldin_by_k.png",
+      "calinski_harabasz_score": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_calinski_harabasz_by_k.png",
+      "cluster_distribution": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_cluster_distribution.png",
+      "cluster_profiles": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_cluster_profiles.png",
+      "pca_clusters": "C:\\Users\\Harsh\\OneDrive\\Desktop\\TY\\ML\\cp\\backend\\reports\\segmentation\\data_analyst\\data_analyst_pca_clusters.png"
+    }
+  }
+}
